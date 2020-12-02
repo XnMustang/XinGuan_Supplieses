@@ -1,0 +1,15 @@
+2020-12-03 03:18:32.319 [DEBUG] com.forward.system.mapper.TbUserMapper.selectById - ==>  Preparing: SELECT id,username,nickname,email,avatar,phone_number,status,create_time,modified_time,sex,salt,type,password,birth,department_id FROM tb_user WHERE id=?
+2020-12-03 03:18:32.338 [DEBUG] com.forward.system.mapper.TbUserMapper.selectById - ==> Parameters: 1000(Long)
+2020-12-03 03:18:32.373 [DEBUG] com.forward.system.mapper.TbUserMapper.selectById - <==      Total: 0
+2020-12-03 03:19:34.146 [DEBUG] com.forward.system.mapper.TbUserMapper.selectById - ==>  Preparing: SELECT id,username,nickname,email,avatar,phone_number,status,create_time,modified_time,sex,salt,type,password,birth,department_id FROM tb_user WHERE id=?
+2020-12-03 03:19:34.147 [DEBUG] com.forward.system.mapper.TbUserMapper.selectById - ==> Parameters: 10(Long)
+2020-12-03 03:19:34.149 [DEBUG] com.forward.system.mapper.TbUserMapper.selectById - <==      Total: 0
+2020-12-03 03:19:41.223 [DEBUG] com.forward.system.mapper.TbUserMapper.selectById - ==>  Preparing: SELECT id,username,nickname,email,avatar,phone_number,status,create_time,modified_time,sex,salt,type,password,birth,department_id FROM tb_user WHERE id=?
+2020-12-03 03:19:41.224 [DEBUG] com.forward.system.mapper.TbUserMapper.selectById - ==> Parameters: 100(Long)
+2020-12-03 03:19:41.233 [DEBUG] com.forward.system.mapper.TbUserMapper.selectById - <==      Total: 1
+2020-12-03 03:22:04.875 [DEBUG] com.forward.system.mapper.TbUserMapper.selectById - ==>  Preparing: SELECT id,username,nickname,email,avatar,phone_number,status,create_time,modified_time,sex,salt,type,password,birth,department_id FROM tb_user WHERE id=?
+2020-12-03 03:22:04.895 [DEBUG] com.forward.system.mapper.TbUserMapper.selectById - ==> Parameters: 1000(Long)
+2020-12-03 03:22:04.913 [DEBUG] com.forward.system.mapper.TbUserMapper.selectById - <==      Total: 0
+2020-12-03 03:22:18.694 [DEBUG] com.forward.system.mapper.TbUserMapper.selectById - ==>  Preparing: SELECT id,username,nickname,email,avatar,phone_number,status,create_time,modified_time,sex,salt,type,password,birth,department_id FROM tb_user WHERE id=?
+2020-12-03 03:22:18.694 [DEBUG] com.forward.system.mapper.TbUserMapper.selectById - ==> Parameters: 100(Long)
+2020-12-03 03:22:18.700 [DEBUG] com.forward.system.mapper.TbUserMapper.selectById - <==      Total: 1

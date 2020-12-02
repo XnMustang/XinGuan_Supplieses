@@ -2,6 +2,7 @@ package com.forward.handler;
 
 import com.forward.response.Result;
 import com.forward.response.ResultCode;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseBody;
@@ -12,6 +13,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
  * @date :  2020/12/3
  */
 @ControllerAdvice
+@Slf4j
 public class GlobalExceptionHandler {
 
     /**
@@ -24,6 +26,7 @@ public class GlobalExceptionHandler {
     @ResponseBody
     public Result error(Exception e){
         e.printStackTrace();
+        log.error(e.getMessage());
         return Result.error();
     }
 
@@ -35,7 +38,7 @@ public class GlobalExceptionHandler {
     @ExceptionHandler(ArithmeticException.class)
     @ResponseBody
     public Result error(ArithmeticException e){
-        e.printStackTrace();
+        log.error(e.getMessage());
         return Result.error().code(ResultCode.ARITHENTIC_EXCEPTION.getCode())
                 .message(ResultCode.ARITHENTIC_EXCEPTION.getMessage());
     }
@@ -48,7 +51,7 @@ public class GlobalExceptionHandler {
     @ExceptionHandler(BusinessException.class)
     @ResponseBody
     public Result error(BusinessException e){
-        e.printStackTrace();
+        log.error(e.getErrorMsg());
         return Result.error().code(e.getCode())
                 .message(e.getErrorMsg());
     }

@@ -16,8 +16,8 @@ server:
 
 mybatis-plus:
   configuration:
-    # 日志
-    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+    # 控制台日志打印
+    log-impl: org.apache.ibatis.logging.log4j.Log4jImpl
   # 逻辑删除
   global-config:
     db-config:
@@ -25,4 +25,3 @@ mybatis-plus:
       logic-delete-value: 1     #逻辑已删除值（默认为1）
       logic-not-delete-value: 0 #逻辑未删除值（默认为0）
   mapper-locations: classpath*:/mapper/*.xml
-

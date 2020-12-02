@@ -1,0 +1,6 @@
+2020-12-03 03:18:32.380 [http-nio-8082-exec-7] ERROR
+                com.forward.handler.GlobalExceptionHandler - null
+2020-12-03 03:19:34.150 [http-nio-8082-exec-4] ERROR
+                com.forward.handler.GlobalExceptionHandler - null
+2020-12-03 03:22:04.919 [http-nio-8082-exec-9] ERROR
+                com.forward.handler.GlobalExceptionHandler - 用户不存在！
