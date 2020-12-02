@@ -13,3 +13,8 @@
 2020-12-03 03:22:18.694 [DEBUG] com.forward.system.mapper.TbUserMapper.selectById - ==>  Preparing: SELECT id,username,nickname,email,avatar,phone_number,status,create_time,modified_time,sex,salt,type,password,birth,department_id FROM tb_user WHERE id=?
 2020-12-03 03:22:18.694 [DEBUG] com.forward.system.mapper.TbUserMapper.selectById - ==> Parameters: 100(Long)
 2020-12-03 03:22:18.700 [DEBUG] com.forward.system.mapper.TbUserMapper.selectById - <==      Total: 1
+2020-12-03 04:02:05.513 [DEBUG] com.forward.system.mapper.UserMapper.selectPage - ==>  Preparing: SELECT COUNT(1) FROM tb_user
+2020-12-03 04:02:05.535 [DEBUG] com.forward.system.mapper.UserMapper.selectPage - ==> Parameters: 
+2020-12-03 04:02:05.583 [DEBUG] com.forward.system.mapper.UserMapper.selectPage - ==>  Preparing: SELECT id,username,nickname,email,avatar,phone_number,status,create_time,modified_time,sex,salt,type,password,birth,department_id FROM tb_user LIMIT ?
+2020-12-03 04:02:05.584 [DEBUG] com.forward.system.mapper.UserMapper.selectPage - ==> Parameters: 7(Long)
+2020-12-03 04:02:05.598 [DEBUG] com.forward.system.mapper.UserMapper.selectPage - <==      Total: 7

@@ -14,7 +14,9 @@ spring:
 server:
   port: 8082
 
-mybatis-plus:
+# 老版本使用mybatis-plus
+# 新版本直接mybatis
+mybatis:
   configuration:
     # 控制台日志打印
     log-impl: org.apache.ibatis.logging.log4j.Log4jImpl

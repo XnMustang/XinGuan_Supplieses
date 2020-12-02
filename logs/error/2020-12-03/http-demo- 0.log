@@ -4,3 +4,83 @@
                 com.forward.handler.GlobalExceptionHandler - null
 2020-12-03 03:22:04.919 [http-nio-8082-exec-9] ERROR
                 com.forward.handler.GlobalExceptionHandler - 用户不存在！
+2020-12-03 03:51:26.785 [main] ERROR
+                o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'mybatis-plus.configuration' to com.baomidou.mybatisplus.core.MybatisConfiguration:
+
+    Property: mybatis-plus.configuration.log-impl
+    Value: org.apache.ibatis.logging.log4j.Log4jImpl
+    Origin: class path resource [application.yml]:20:15
+    Reason: org.apache.log4j.Logger
+
+Action:
+
+Update your application's configuration
+
+2020-12-03 03:53:01.373 [main] ERROR
+                o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'mybatis-plus.configuration' to com.baomidou.mybatisplus.core.MybatisConfiguration:
+
+    Property: mybatis-plus.configuration.log-impl
+    Value: org.apache.ibatis.logging.log4j.Log4jImpl
+    Origin: class path resource [application.yml]:20:15
+    Reason: org.apache.log4j.Logger
+
+Action:
+
+Update your application's configuration
+
+2020-12-03 03:53:27.916 [main] ERROR
+                o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'mybatis-plus.configuration' to com.baomidou.mybatisplus.core.MybatisConfiguration:
+
+    Property: mybatis-plus.configuration.log-impl
+    Value: org.apache.ibatis.logging.log4j.Log4jImpl
+    Origin: class path resource [application.yml]:20:15
+    Reason: org.apache.log4j.Logger
+
+Action:
+
+Update your application's configuration
+
+2020-12-03 03:56:34.903 [main] ERROR
+                o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'mybatis-plus.configuration' to com.baomidou.mybatisplus.core.MybatisConfiguration:
+
+    Property: mybatis-plus.configuration.log-impl
+    Value: org.apache.ibatis.logging.log4j.Log4jImpl
+    Origin: class path resource [application.yml]:20:15
+    Reason: org.apache.log4j.Logger
+
+Action:
+
+Update your application's configuration
+
