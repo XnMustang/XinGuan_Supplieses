@@ -1,6 +1,6 @@
 package com.forward.system.service;
 
-import com.forward.system.entity.TbUser;
+import com.forward.system.entity.User;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 /**
@@ -9,8 +9,8 @@ import com.baomidou.mybatisplus.extension.service.IService;
  * </p>
  *
  * @author wangjun
- * @since 2020-12-02
+ * @since 2020-12-03
  */
-public interface TbUserService extends IService<TbUser> {
+public interface UserService extends IService<User> {
 
 }
