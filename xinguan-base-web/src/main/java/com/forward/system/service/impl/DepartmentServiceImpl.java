@@ -4,7 +4,10 @@ import com.forward.system.entity.Department;
 import com.forward.system.mapper.DepartmentMapper;
 import com.forward.system.service.DepartmentService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
+import java.util.List;
 
 /**
  * <p>
@@ -17,4 +20,8 @@ import org.springframework.stereotype.Service;
 @Service
 public class DepartmentServiceImpl extends ServiceImpl<DepartmentMapper, Department> implements DepartmentService {
 
+    @Override
+    public List<Department> findDeptAndCount() {
+        return this.baseMapper.findDeptAndCount();
+    }
 }

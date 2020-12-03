@@ -13,6 +13,7 @@ public enum ResultCode implements CustomizeResultCode{
      * 306尚未登录
      * 307算数异常
      * 308用户不存在
+     * 309部门不存在
      * 205没有找到这条历史消息！有人入侵数据库强制删除了！
      * 404没有找到对应的请求路径
      * 500服务器异常,停止处理
@@ -24,6 +25,7 @@ public enum ResultCode implements CustomizeResultCode{
     NOT_LOGIN(306,"尚未登录！"),
     ARITHENTIC_EXCEPTION(307,"算数异常！"),
     USER_NOT_EXIST_EXCEPTION(308,"用户不存在！"),
+    DEPT_NOT_EXIST_EXCEPTION(309,"未查询到部门信息！"),
     INTRODUCTION_NOT_FOUND(205,"没有找到这条历史消息！有人入侵数据库强制删除了！"),
     PAGE_NOT_FOUND(404,"没有找到对应的请求路径!"),
     INTERNAL_SERVER_ERROR(500,"服务器异常！停止处理！"),
