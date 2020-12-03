@@ -1,10 +1,13 @@
 package com.forward.system.entity;
 
+import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableName;
 import com.baomidou.mybatisplus.annotation.IdType;
 import java.util.Date;
 import com.baomidou.mybatisplus.annotation.TableId;
 import java.io.Serializable;
+
+import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
@@ -32,6 +35,7 @@ public class User implements Serializable {
     @ApiModelProperty(value = "用户名")
     private String username;
 
+    @ApiModelProperty(value = "昵称")
     private String nickname;
 
     @ApiModelProperty(value = "邮箱")
@@ -71,4 +75,11 @@ public class User implements Serializable {
 
     @ApiModelProperty(value = "0:未删除，1:已删除")
     private Long deleted;
+
+    /**
+     * 这里是虚拟字段，由UserMapper.xml中查询字段起的别名
+     */
+    @ApiModelProperty(value = "部门名称")
+    @TableField(exist = false)
+    private String name;
 }

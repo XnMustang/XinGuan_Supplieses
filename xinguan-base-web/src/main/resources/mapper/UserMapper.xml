@@ -2,4 +2,19 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.forward.system.mapper.UserMapper">
 
+    <!--用${ew.customSqlSegment}是因为Wrapper源码规定的-->
+    <select id="findUserPage" resultType="com.forward.system.entity.User">
+        SELECT
+            u.id,u.username,u.nickname,u.email,u.avatar,u.phone_number,u.status,
+            u.create_time,u.modified_time,u.sex,u.salt,u.type,u.password,u.birth,
+            u.department_id,u.deleted,d.name as name
+        from
+            tb_user u
+        INNER JOIN
+            tb_department d
+        on
+            u.department_id = d.id
+        ${ew.customSqlSegment}
+    </select>
+
 </mapper>
