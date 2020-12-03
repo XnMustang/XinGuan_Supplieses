@@ -105,3 +105,18 @@
 ### Cause: com.baomidou.mybatisplus.core.exceptions.MybatisPlusException: Error: Method queryTotal execution error of sql : 
  SELECT COUNT(1) FROM tb_user u INNER JOIN tb_department d ON u.department_id = d.id WHERE (nikename = ?) 
 
+2020-12-04 02:05:01.661 [main] ERROR
+                o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8082 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8082 or configure this application to listen on another port.
+

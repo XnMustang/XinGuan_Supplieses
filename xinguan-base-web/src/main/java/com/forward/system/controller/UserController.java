@@ -33,19 +33,6 @@ public class UserController {
     private UserService userService;
 
     @ApiModelProperty(value = "用户列表",notes = "分页查询用户信息")
-    @GetMapping("/findUserList")
-    public Result findUserList(@RequestParam(required = true,defaultValue = "1") Integer current,
-                               @RequestParam(required = true,defaultValue = "6") Integer size){
-        //对用户进行分页，注入用户
-        Page<User> page = new Page<>(current,size);
-        Page<User> userPage = userService.page(page);
-        //总记录数
-        long total = userPage.getTotal();
-        //分页查询出的信息
-        List<User> records = userPage.getRecords();
-        return Result.ok().data("total",total).data("records",records);
-    }
-
     @PostMapping("/findUserPage")
     public Result findUserPage(@RequestParam(required = true,defaultValue = "1") Integer current,
                                @RequestParam(required = true,defaultValue = "6") Integer size,
