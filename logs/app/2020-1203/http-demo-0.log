@@ -828,3 +828,90 @@
 2020-12-03 20:40:18.827 [DEBUG] com.forward.system.mapper.DepartmentMapper.findDeptAndCount - ==>  Preparing: select d.id, d.name, IFNULL( (select count(*) from tb_user u where u.department_id = d.id and u.deleted=0 GROUP BY u.department_id) ,0) as deptCount from tb_department d;
 2020-12-03 20:40:18.846 [DEBUG] com.forward.system.mapper.DepartmentMapper.findDeptAndCount - ==> Parameters: 
 2020-12-03 20:40:18.868 [DEBUG] com.forward.system.mapper.DepartmentMapper.findDeptAndCount - <==      Total: 5
+2020-12-03 20:55:01.199 [DEBUG] com.forward.system.mapper.DepartmentMapper.findDeptAndCount - ==>  Preparing: select d.id, d.name, IFNULL( (select count(*) from tb_user u where u.department_id = d.id and u.deleted=0 GROUP BY u.department_id) ,0) as deptCount from tb_department d;
+2020-12-03 20:55:01.257 [DEBUG] com.forward.system.mapper.DepartmentMapper.findDeptAndCount - ==> Parameters: 
+2020-12-03 20:55:01.310 [DEBUG] com.forward.system.mapper.DepartmentMapper.findDeptAndCount - <==      Total: 5
+2020-12-03 21:02:22.732 [DEBUG] com.forward.system.mapper.DepartmentMapper.findDeptAndCount - ==>  Preparing: select d.id, d.name, IFNULL( (select count(*) from tb_user u where u.department_id = d.id and u.deleted=0 GROUP BY u.department_id) ,0) as deptCount from tb_department d;
+2020-12-03 21:02:22.733 [DEBUG] com.forward.system.mapper.DepartmentMapper.findDeptAndCount - ==> Parameters: 
+2020-12-03 21:02:22.740 [DEBUG] com.forward.system.mapper.DepartmentMapper.findDeptAndCount - <==      Total: 5
+2020-12-03 21:02:22.958 [DEBUG] com.forward.system.mapper.UserMapper.selectPage - ==>  Preparing: SELECT COUNT(1) FROM tb_user
+2020-12-03 21:02:22.959 [DEBUG] com.forward.system.mapper.UserMapper.selectPage - ==> Parameters: 
+2020-12-03 21:02:22.980 [DEBUG] com.forward.system.mapper.UserMapper.selectPage - ==>  Preparing: SELECT id,username,nickname,email,avatar,phone_number,status,create_time,modified_time,sex,salt,type,password,birth,department_id,deleted FROM tb_user LIMIT ?
+2020-12-03 21:02:22.981 [DEBUG] com.forward.system.mapper.UserMapper.selectPage - ==> Parameters: 6(Long)
+2020-12-03 21:02:22.989 [DEBUG] com.forward.system.mapper.UserMapper.selectPage - <==      Total: 6
+2020-12-03 21:02:45.829 [DEBUG] com.forward.system.mapper.UserMapper.selectPage - ==>  Preparing: SELECT COUNT(1) FROM tb_user
+2020-12-03 21:02:45.830 [DEBUG] com.forward.system.mapper.UserMapper.selectPage - ==> Parameters: 
+2020-12-03 21:02:45.834 [DEBUG] com.forward.system.mapper.UserMapper.selectPage - ==>  Preparing: SELECT id,username,nickname,email,avatar,phone_number,status,create_time,modified_time,sex,salt,type,password,birth,department_id,deleted FROM tb_user LIMIT ?,?
+2020-12-03 21:02:45.835 [DEBUG] com.forward.system.mapper.UserMapper.selectPage - ==> Parameters: 6(Long), 6(Long)
+2020-12-03 21:02:45.841 [DEBUG] com.forward.system.mapper.UserMapper.selectPage - <==      Total: 6
+2020-12-03 21:02:46.400 [DEBUG] com.forward.system.mapper.UserMapper.selectPage - ==>  Preparing: SELECT COUNT(1) FROM tb_user
+2020-12-03 21:02:46.400 [DEBUG] com.forward.system.mapper.UserMapper.selectPage - ==> Parameters: 
+2020-12-03 21:02:46.403 [DEBUG] com.forward.system.mapper.UserMapper.selectPage - ==>  Preparing: SELECT id,username,nickname,email,avatar,phone_number,status,create_time,modified_time,sex,salt,type,password,birth,department_id,deleted FROM tb_user LIMIT ?,?
+2020-12-03 21:02:46.403 [DEBUG] com.forward.system.mapper.UserMapper.selectPage - ==> Parameters: 12(Long), 6(Long)
+2020-12-03 21:02:46.410 [DEBUG] com.forward.system.mapper.UserMapper.selectPage - <==      Total: 6
+2020-12-03 21:02:47.953 [DEBUG] com.forward.system.mapper.UserMapper.selectPage - ==>  Preparing: SELECT COUNT(1) FROM tb_user
+2020-12-03 21:02:47.954 [DEBUG] com.forward.system.mapper.UserMapper.selectPage - ==> Parameters: 
+2020-12-03 21:02:47.958 [DEBUG] com.forward.system.mapper.UserMapper.selectPage - ==>  Preparing: SELECT id,username,nickname,email,avatar,phone_number,status,create_time,modified_time,sex,salt,type,password,birth,department_id,deleted FROM tb_user LIMIT ?,?
+2020-12-03 21:02:47.959 [DEBUG] com.forward.system.mapper.UserMapper.selectPage - ==> Parameters: 40(Long), 20(Long)
+2020-12-03 21:02:47.966 [DEBUG] com.forward.system.mapper.UserMapper.selectPage - <==      Total: 20
+2020-12-03 21:02:49.969 [DEBUG] com.forward.system.mapper.UserMapper.selectPage - ==>  Preparing: SELECT COUNT(1) FROM tb_user
+2020-12-03 21:02:49.970 [DEBUG] com.forward.system.mapper.UserMapper.selectPage - ==> Parameters: 
+2020-12-03 21:02:49.972 [DEBUG] com.forward.system.mapper.UserMapper.selectPage - ==>  Preparing: SELECT id,username,nickname,email,avatar,phone_number,status,create_time,modified_time,sex,salt,type,password,birth,department_id,deleted FROM tb_user LIMIT ?,?
+2020-12-03 21:02:49.973 [DEBUG] com.forward.system.mapper.UserMapper.selectPage - ==> Parameters: 60(Long), 20(Long)
+2020-12-03 21:02:49.977 [DEBUG] com.forward.system.mapper.UserMapper.selectPage - <==      Total: 11
+2020-12-03 21:03:18.854 [DEBUG] com.forward.system.mapper.DepartmentMapper.findDeptAndCount - ==>  Preparing: select d.id, d.name, IFNULL( (select count(*) from tb_user u where u.department_id = d.id and u.deleted=0 GROUP BY u.department_id) ,0) as deptCount from tb_department d;
+2020-12-03 21:03:18.855 [DEBUG] com.forward.system.mapper.DepartmentMapper.findDeptAndCount - ==> Parameters: 
+2020-12-03 21:03:18.857 [DEBUG] com.forward.system.mapper.DepartmentMapper.findDeptAndCount - <==      Total: 5
+2020-12-03 21:03:18.858 [DEBUG] com.forward.system.mapper.UserMapper.selectPage - ==>  Preparing: SELECT COUNT(1) FROM tb_user
+2020-12-03 21:03:18.859 [DEBUG] com.forward.system.mapper.UserMapper.selectPage - ==> Parameters: 
+2020-12-03 21:03:18.868 [DEBUG] com.forward.system.mapper.UserMapper.selectPage - ==>  Preparing: SELECT id,username,nickname,email,avatar,phone_number,status,create_time,modified_time,sex,salt,type,password,birth,department_id,deleted FROM tb_user LIMIT ?
+2020-12-03 21:03:18.869 [DEBUG] com.forward.system.mapper.UserMapper.selectPage - ==> Parameters: 6(Long)
+2020-12-03 21:03:18.873 [DEBUG] com.forward.system.mapper.UserMapper.selectPage - <==      Total: 6
+2020-12-03 21:04:44.893 [DEBUG] com.forward.system.mapper.DepartmentMapper.findDeptAndCount - ==>  Preparing: select d.id, d.name, IFNULL( (select count(*) from tb_user u where u.department_id = d.id and u.deleted=0 GROUP BY u.department_id) ,0) as deptCount from tb_department d;
+2020-12-03 21:04:44.896 [DEBUG] com.forward.system.mapper.DepartmentMapper.findDeptAndCount - ==> Parameters: 
+2020-12-03 21:04:44.898 [DEBUG] com.forward.system.mapper.UserMapper.selectPage - ==>  Preparing: SELECT COUNT(1) FROM tb_user
+2020-12-03 21:04:44.900 [DEBUG] com.forward.system.mapper.UserMapper.selectPage - ==> Parameters: 
+2020-12-03 21:04:44.903 [DEBUG] com.forward.system.mapper.UserMapper.selectPage - ==>  Preparing: SELECT id,username,nickname,email,avatar,phone_number,status,create_time,modified_time,sex,salt,type,password,birth,department_id,deleted FROM tb_user LIMIT ?
+2020-12-03 21:04:44.903 [DEBUG] com.forward.system.mapper.DepartmentMapper.findDeptAndCount - <==      Total: 5
+2020-12-03 21:04:44.904 [DEBUG] com.forward.system.mapper.UserMapper.selectPage - ==> Parameters: 6(Long)
+2020-12-03 21:04:44.911 [DEBUG] com.forward.system.mapper.UserMapper.selectPage - <==      Total: 6
+2020-12-03 21:05:09.980 [DEBUG] com.forward.system.mapper.DepartmentMapper.findDeptAndCount - ==>  Preparing: select d.id, d.name, IFNULL( (select count(*) from tb_user u where u.department_id = d.id and u.deleted=0 GROUP BY u.department_id) ,0) as deptCount from tb_department d;
+2020-12-03 21:05:09.980 [DEBUG] com.forward.system.mapper.DepartmentMapper.findDeptAndCount - ==> Parameters: 
+2020-12-03 21:05:09.981 [DEBUG] com.forward.system.mapper.UserMapper.selectPage - ==>  Preparing: SELECT COUNT(1) FROM tb_user
+2020-12-03 21:05:09.982 [DEBUG] com.forward.system.mapper.UserMapper.selectPage - ==> Parameters: 
+2020-12-03 21:05:09.982 [DEBUG] com.forward.system.mapper.DepartmentMapper.findDeptAndCount - <==      Total: 5
+2020-12-03 21:05:09.987 [DEBUG] com.forward.system.mapper.UserMapper.selectPage - ==>  Preparing: SELECT id,username,nickname,email,avatar,phone_number,status,create_time,modified_time,sex,salt,type,password,birth,department_id,deleted FROM tb_user LIMIT ?
+2020-12-03 21:05:09.989 [DEBUG] com.forward.system.mapper.UserMapper.selectPage - ==> Parameters: 6(Long)
+2020-12-03 21:05:09.993 [DEBUG] com.forward.system.mapper.UserMapper.selectPage - <==      Total: 6
+2020-12-03 21:05:46.306 [DEBUG] com.forward.system.mapper.DepartmentMapper.findDeptAndCount - ==>  Preparing: select d.id, d.name, IFNULL( (select count(*) from tb_user u where u.department_id = d.id and u.deleted=0 GROUP BY u.department_id) ,0) as deptCount from tb_department d;
+2020-12-03 21:05:46.307 [DEBUG] com.forward.system.mapper.DepartmentMapper.findDeptAndCount - ==> Parameters: 
+2020-12-03 21:05:46.307 [DEBUG] com.forward.system.mapper.UserMapper.selectPage - ==>  Preparing: SELECT COUNT(1) FROM tb_user
+2020-12-03 21:05:46.308 [DEBUG] com.forward.system.mapper.UserMapper.selectPage - ==> Parameters: 
+2020-12-03 21:05:46.309 [DEBUG] com.forward.system.mapper.DepartmentMapper.findDeptAndCount - <==      Total: 5
+2020-12-03 21:05:46.310 [DEBUG] com.forward.system.mapper.UserMapper.selectPage - ==>  Preparing: SELECT id,username,nickname,email,avatar,phone_number,status,create_time,modified_time,sex,salt,type,password,birth,department_id,deleted FROM tb_user LIMIT ?
+2020-12-03 21:05:46.311 [DEBUG] com.forward.system.mapper.UserMapper.selectPage - ==> Parameters: 6(Long)
+2020-12-03 21:05:46.314 [DEBUG] com.forward.system.mapper.UserMapper.selectPage - <==      Total: 6
+2020-12-03 21:07:52.485 [DEBUG] com.forward.system.mapper.DepartmentMapper.findDeptAndCount - ==>  Preparing: select d.id, d.name, IFNULL( (select count(*) from tb_user u where u.department_id = d.id and u.deleted=0 GROUP BY u.department_id) ,0) as deptCount from tb_department d;
+2020-12-03 21:07:52.487 [DEBUG] com.forward.system.mapper.UserMapper.selectPage - ==>  Preparing: SELECT COUNT(1) FROM tb_user
+2020-12-03 21:07:52.487 [DEBUG] com.forward.system.mapper.DepartmentMapper.findDeptAndCount - ==> Parameters: 
+2020-12-03 21:07:52.487 [DEBUG] com.forward.system.mapper.UserMapper.selectPage - ==> Parameters: 
+2020-12-03 21:07:52.490 [DEBUG] com.forward.system.mapper.UserMapper.selectPage - ==>  Preparing: SELECT id,username,nickname,email,avatar,phone_number,status,create_time,modified_time,sex,salt,type,password,birth,department_id,deleted FROM tb_user LIMIT ?
+2020-12-03 21:07:52.492 [DEBUG] com.forward.system.mapper.UserMapper.selectPage - ==> Parameters: 6(Long)
+2020-12-03 21:07:52.493 [DEBUG] com.forward.system.mapper.DepartmentMapper.findDeptAndCount - <==      Total: 5
+2020-12-03 21:07:52.495 [DEBUG] com.forward.system.mapper.UserMapper.selectPage - <==      Total: 6
+2020-12-03 21:08:16.638 [DEBUG] com.forward.system.mapper.DepartmentMapper.findDeptAndCount - ==>  Preparing: select d.id, d.name, IFNULL( (select count(*) from tb_user u where u.department_id = d.id and u.deleted=0 GROUP BY u.department_id) ,0) as deptCount from tb_department d;
+2020-12-03 21:08:16.639 [DEBUG] com.forward.system.mapper.DepartmentMapper.findDeptAndCount - ==> Parameters: 
+2020-12-03 21:08:16.640 [DEBUG] com.forward.system.mapper.UserMapper.selectPage - ==>  Preparing: SELECT COUNT(1) FROM tb_user
+2020-12-03 21:08:16.641 [DEBUG] com.forward.system.mapper.UserMapper.selectPage - ==> Parameters: 
+2020-12-03 21:08:16.641 [DEBUG] com.forward.system.mapper.DepartmentMapper.findDeptAndCount - <==      Total: 5
+2020-12-03 21:08:16.643 [DEBUG] com.forward.system.mapper.UserMapper.selectPage - ==>  Preparing: SELECT id,username,nickname,email,avatar,phone_number,status,create_time,modified_time,sex,salt,type,password,birth,department_id,deleted FROM tb_user LIMIT ?
+2020-12-03 21:08:16.645 [DEBUG] com.forward.system.mapper.UserMapper.selectPage - ==> Parameters: 6(Long)
+2020-12-03 21:08:16.649 [DEBUG] com.forward.system.mapper.UserMapper.selectPage - <==      Total: 6
+2020-12-03 21:08:34.993 [DEBUG] com.forward.system.mapper.DepartmentMapper.findDeptAndCount - ==>  Preparing: select d.id, d.name, IFNULL( (select count(*) from tb_user u where u.department_id = d.id and u.deleted=0 GROUP BY u.department_id) ,0) as deptCount from tb_department d;
+2020-12-03 21:08:34.994 [DEBUG] com.forward.system.mapper.DepartmentMapper.findDeptAndCount - ==> Parameters: 
+2020-12-03 21:08:34.995 [DEBUG] com.forward.system.mapper.UserMapper.selectPage - ==>  Preparing: SELECT COUNT(1) FROM tb_user
+2020-12-03 21:08:34.996 [DEBUG] com.forward.system.mapper.UserMapper.selectPage - ==> Parameters: 
+2020-12-03 21:08:34.996 [DEBUG] com.forward.system.mapper.DepartmentMapper.findDeptAndCount - <==      Total: 5
+2020-12-03 21:08:34.998 [DEBUG] com.forward.system.mapper.UserMapper.selectPage - ==>  Preparing: SELECT id,username,nickname,email,avatar,phone_number,status,create_time,modified_time,sex,salt,type,password,birth,department_id,deleted FROM tb_user LIMIT ?
+2020-12-03 21:08:35.000 [DEBUG] com.forward.system.mapper.UserMapper.selectPage - ==> Parameters: 6(Long)
+2020-12-03 21:08:35.003 [DEBUG] com.forward.system.mapper.UserMapper.selectPage - <==      Total: 6

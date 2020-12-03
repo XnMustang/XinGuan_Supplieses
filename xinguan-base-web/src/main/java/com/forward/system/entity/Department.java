@@ -1,5 +1,6 @@
 package com.forward.system.entity;
 
+import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableName;
 import com.baomidou.mybatisplus.annotation.IdType;
 import java.util.Date;
@@ -12,7 +13,7 @@ import lombok.EqualsAndHashCode;
 
 /**
  * <p>
- * 
+ *
  * </p>
  *
  * @author wangjun
@@ -47,5 +48,7 @@ public class Department implements Serializable {
     @ApiModelProperty(value = "系主任id，关联用户表")
     private Long mgrId;
 
-
+    @ApiModelProperty(value = "分组查询中部门人数统计")
+    @TableField(exist = false)
+    private Integer deptCount;
 }
