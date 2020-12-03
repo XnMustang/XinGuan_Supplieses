@@ -9,7 +9,6 @@ import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
-
 /**
  * <p>
  * 用户表
@@ -69,4 +68,7 @@ public class User implements Serializable {
 
     @ApiModelProperty(value = "部门id")
     private Long departmentId;
+
+    @ApiModelProperty(value = "0:未删除，1:已删除")
+    private Long deleted;
 }
