@@ -744,3 +744,58 @@
 2020-12-03 19:06:37.636 [DEBUG] com.forward.system.mapper.UserMapper.selectPage - ==>  Preparing: SELECT id,username,nickname,email,avatar,phone_number,status,create_time,modified_time,sex,salt,type,password,birth,department_id FROM tb_user LIMIT ?
 2020-12-03 19:06:37.637 [DEBUG] com.forward.system.mapper.UserMapper.selectPage - ==> Parameters: 6(Long)
 2020-12-03 19:06:37.638 [DEBUG] com.forward.system.mapper.UserMapper.selectPage - <==      Total: 6
+2020-12-03 19:08:43.299 [DEBUG] com.forward.system.mapper.UserMapper.selectPage - ==>  Preparing: SELECT COUNT(1) FROM tb_user
+2020-12-03 19:08:43.300 [DEBUG] com.forward.system.mapper.UserMapper.selectPage - ==> Parameters: 
+2020-12-03 19:08:43.301 [DEBUG] com.forward.system.mapper.UserMapper.selectPage - ==>  Preparing: SELECT id,username,nickname,email,avatar,phone_number,status,create_time,modified_time,sex,salt,type,password,birth,department_id FROM tb_user LIMIT ?
+2020-12-03 19:08:43.302 [DEBUG] com.forward.system.mapper.UserMapper.selectPage - ==> Parameters: 6(Long)
+2020-12-03 19:08:43.303 [DEBUG] com.forward.system.mapper.UserMapper.selectPage - <==      Total: 6
+2020-12-03 19:08:47.796 [DEBUG] com.forward.system.mapper.UserMapper.selectPage - ==>  Preparing: SELECT COUNT(1) FROM tb_user
+2020-12-03 19:08:47.797 [DEBUG] com.forward.system.mapper.UserMapper.selectPage - ==> Parameters: 
+2020-12-03 19:08:47.798 [DEBUG] com.forward.system.mapper.UserMapper.selectPage - ==>  Preparing: SELECT id,username,nickname,email,avatar,phone_number,status,create_time,modified_time,sex,salt,type,password,birth,department_id FROM tb_user LIMIT ?
+2020-12-03 19:08:47.799 [DEBUG] com.forward.system.mapper.UserMapper.selectPage - ==> Parameters: 20(Long)
+2020-12-03 19:08:47.801 [DEBUG] com.forward.system.mapper.UserMapper.selectPage - <==      Total: 20
+2020-12-03 19:08:55.948 [DEBUG] com.forward.system.mapper.UserMapper.selectPage - ==>  Preparing: SELECT COUNT(1) FROM tb_user
+2020-12-03 19:08:55.949 [DEBUG] com.forward.system.mapper.UserMapper.selectPage - ==> Parameters: 
+2020-12-03 19:08:55.951 [DEBUG] com.forward.system.mapper.UserMapper.selectPage - ==>  Preparing: SELECT id,username,nickname,email,avatar,phone_number,status,create_time,modified_time,sex,salt,type,password,birth,department_id FROM tb_user LIMIT ?
+2020-12-03 19:08:55.951 [DEBUG] com.forward.system.mapper.UserMapper.selectPage - ==> Parameters: 30(Long)
+2020-12-03 19:08:55.955 [DEBUG] com.forward.system.mapper.UserMapper.selectPage - <==      Total: 30
+2020-12-03 19:10:14.864 [DEBUG] com.forward.system.mapper.UserMapper.selectPage - ==>  Preparing: SELECT COUNT(1) FROM tb_user
+2020-12-03 19:10:14.865 [DEBUG] com.forward.system.mapper.UserMapper.selectPage - ==> Parameters: 
+2020-12-03 19:10:14.867 [DEBUG] com.forward.system.mapper.UserMapper.selectPage - ==>  Preparing: SELECT id,username,nickname,email,avatar,phone_number,status,create_time,modified_time,sex,salt,type,password,birth,department_id FROM tb_user LIMIT ?
+2020-12-03 19:10:14.867 [DEBUG] com.forward.system.mapper.UserMapper.selectPage - ==> Parameters: 6(Long)
+2020-12-03 19:10:14.869 [DEBUG] com.forward.system.mapper.UserMapper.selectPage - <==      Total: 6
+2020-12-03 19:10:17.394 [DEBUG] com.forward.system.mapper.UserMapper.selectPage - ==>  Preparing: SELECT COUNT(1) FROM tb_user
+2020-12-03 19:10:17.395 [DEBUG] com.forward.system.mapper.UserMapper.selectPage - ==> Parameters: 
+2020-12-03 19:10:17.397 [DEBUG] com.forward.system.mapper.UserMapper.selectPage - ==>  Preparing: SELECT id,username,nickname,email,avatar,phone_number,status,create_time,modified_time,sex,salt,type,password,birth,department_id FROM tb_user LIMIT ?
+2020-12-03 19:10:17.398 [DEBUG] com.forward.system.mapper.UserMapper.selectPage - ==> Parameters: 6(Long)
+2020-12-03 19:10:17.400 [DEBUG] com.forward.system.mapper.UserMapper.selectPage - <==      Total: 6
+2020-12-03 19:10:19.536 [DEBUG] com.forward.system.mapper.UserMapper.selectPage - ==>  Preparing: SELECT COUNT(1) FROM tb_user
+2020-12-03 19:10:19.537 [DEBUG] com.forward.system.mapper.UserMapper.selectPage - ==> Parameters: 
+2020-12-03 19:10:19.539 [DEBUG] com.forward.system.mapper.UserMapper.selectPage - ==>  Preparing: SELECT id,username,nickname,email,avatar,phone_number,status,create_time,modified_time,sex,salt,type,password,birth,department_id FROM tb_user LIMIT ?
+2020-12-03 19:10:19.540 [DEBUG] com.forward.system.mapper.UserMapper.selectPage - ==> Parameters: 30(Long)
+2020-12-03 19:10:19.543 [DEBUG] com.forward.system.mapper.UserMapper.selectPage - <==      Total: 30
+2020-12-03 19:12:30.459 [DEBUG] com.forward.system.mapper.UserMapper.selectPage - ==>  Preparing: SELECT COUNT(1) FROM tb_user
+2020-12-03 19:12:30.460 [DEBUG] com.forward.system.mapper.UserMapper.selectPage - ==> Parameters: 
+2020-12-03 19:12:30.462 [DEBUG] com.forward.system.mapper.UserMapper.selectPage - ==>  Preparing: SELECT id,username,nickname,email,avatar,phone_number,status,create_time,modified_time,sex,salt,type,password,birth,department_id FROM tb_user LIMIT ?
+2020-12-03 19:12:30.463 [DEBUG] com.forward.system.mapper.UserMapper.selectPage - ==> Parameters: 6(Long)
+2020-12-03 19:12:30.466 [DEBUG] com.forward.system.mapper.UserMapper.selectPage - <==      Total: 6
+2020-12-03 19:14:47.465 [DEBUG] com.forward.system.mapper.UserMapper.selectPage - ==>  Preparing: SELECT COUNT(1) FROM tb_user
+2020-12-03 19:14:47.465 [DEBUG] com.forward.system.mapper.UserMapper.selectPage - ==> Parameters: 
+2020-12-03 19:14:47.468 [DEBUG] com.forward.system.mapper.UserMapper.selectPage - ==>  Preparing: SELECT id,username,nickname,email,avatar,phone_number,status,create_time,modified_time,sex,salt,type,password,birth,department_id FROM tb_user LIMIT ?
+2020-12-03 19:14:47.468 [DEBUG] com.forward.system.mapper.UserMapper.selectPage - ==> Parameters: 6(Long)
+2020-12-03 19:14:47.469 [DEBUG] com.forward.system.mapper.UserMapper.selectPage - <==      Total: 6
+2020-12-03 19:15:04.485 [DEBUG] com.forward.system.mapper.UserMapper.selectPage - ==>  Preparing: SELECT COUNT(1) FROM tb_user
+2020-12-03 19:15:04.486 [DEBUG] com.forward.system.mapper.UserMapper.selectPage - ==> Parameters: 
+2020-12-03 19:15:04.488 [DEBUG] com.forward.system.mapper.UserMapper.selectPage - ==>  Preparing: SELECT id,username,nickname,email,avatar,phone_number,status,create_time,modified_time,sex,salt,type,password,birth,department_id FROM tb_user LIMIT ?
+2020-12-03 19:15:04.489 [DEBUG] com.forward.system.mapper.UserMapper.selectPage - ==> Parameters: 30(Long)
+2020-12-03 19:15:04.492 [DEBUG] com.forward.system.mapper.UserMapper.selectPage - <==      Total: 30
+2020-12-03 19:15:26.518 [DEBUG] com.forward.system.mapper.UserMapper.selectPage - ==>  Preparing: SELECT COUNT(1) FROM tb_user
+2020-12-03 19:15:26.519 [DEBUG] com.forward.system.mapper.UserMapper.selectPage - ==> Parameters: 
+2020-12-03 19:15:26.522 [DEBUG] com.forward.system.mapper.UserMapper.selectPage - ==>  Preparing: SELECT id,username,nickname,email,avatar,phone_number,status,create_time,modified_time,sex,salt,type,password,birth,department_id FROM tb_user LIMIT ?
+2020-12-03 19:15:26.522 [DEBUG] com.forward.system.mapper.UserMapper.selectPage - ==> Parameters: 6(Long)
+2020-12-03 19:15:26.525 [DEBUG] com.forward.system.mapper.UserMapper.selectPage - <==      Total: 6
+2020-12-03 19:15:30.425 [DEBUG] com.forward.system.mapper.UserMapper.selectPage - ==>  Preparing: SELECT COUNT(1) FROM tb_user
+2020-12-03 19:15:30.425 [DEBUG] com.forward.system.mapper.UserMapper.selectPage - ==> Parameters: 
+2020-12-03 19:15:30.429 [DEBUG] com.forward.system.mapper.UserMapper.selectPage - ==>  Preparing: SELECT id,username,nickname,email,avatar,phone_number,status,create_time,modified_time,sex,salt,type,password,birth,department_id FROM tb_user LIMIT ?
+2020-12-03 19:15:30.429 [DEBUG] com.forward.system.mapper.UserMapper.selectPage - ==> Parameters: 30(Long)
+2020-12-03 19:15:30.432 [DEBUG] com.forward.system.mapper.UserMapper.selectPage - <==      Total: 30
