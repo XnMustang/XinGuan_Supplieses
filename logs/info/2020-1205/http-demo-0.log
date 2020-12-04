@@ -1,0 +1,193 @@
+2020-12-05 01:51:42.657 [INFO ] com.forward.oss.TestOss - Starting TestOss on LAPTOP-FKDB9B57 with PID 18040 (started by Acer in D:\IntellijIDEA\WorkSpaces\SpringCloudCodes\Codes\xinguan-parent\xinguan-base-web)
+2020-12-05 01:51:42.659 [INFO ] com.forward.oss.TestOss - No active profile set, falling back to default profiles: default
+2020-12-05 01:51:45.682 [INFO ] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-12-05 01:51:45.975 [INFO ] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-05 01:51:46.327 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-12-05 01:51:46.362 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-12-05 01:51:46.401 [INFO ] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-12-05 01:51:46.549 [INFO ] com.forward.oss.TestOss - Started TestOss in 4.461 seconds (JVM running for 5.609)
+2020-12-05 01:51:46.860 [INFO ] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-05 02:14:36.435 [INFO ] com.forward.oss.TestOss - Starting TestOss on LAPTOP-FKDB9B57 with PID 18036 (started by Acer in D:\IntellijIDEA\WorkSpaces\SpringCloudCodes\Codes\xinguan-parent\xinguan-base-web)
+2020-12-05 02:14:36.437 [INFO ] com.forward.oss.TestOss - No active profile set, falling back to default profiles: default
+2020-12-05 02:14:39.613 [INFO ] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-12-05 02:14:39.909 [INFO ] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-05 02:14:40.329 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-12-05 02:14:40.353 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-12-05 02:14:40.404 [INFO ] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-12-05 02:14:40.568 [INFO ] com.forward.oss.TestOss - Started TestOss in 4.655 seconds (JVM running for 5.911)
+2020-12-05 02:14:41.999 [INFO ] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-05 02:15:39.088 [INFO ] com.forward.oss.TestOss - Starting TestOss on LAPTOP-FKDB9B57 with PID 18664 (started by Acer in D:\IntellijIDEA\WorkSpaces\SpringCloudCodes\Codes\xinguan-parent\xinguan-base-web)
+2020-12-05 02:15:39.090 [INFO ] com.forward.oss.TestOss - No active profile set, falling back to default profiles: default
+2020-12-05 02:15:42.510 [INFO ] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-12-05 02:15:42.897 [INFO ] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-05 02:15:43.317 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-12-05 02:15:43.339 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-12-05 02:15:43.384 [INFO ] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-12-05 02:15:43.581 [INFO ] com.forward.oss.TestOss - Started TestOss in 5.008 seconds (JVM running for 6.488)
+2020-12-05 02:15:45.009 [INFO ] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-05 02:22:26.875 [INFO ] com.forward.oss.TestOss - Starting TestOss on LAPTOP-FKDB9B57 with PID 12040 (started by Acer in D:\IntellijIDEA\WorkSpaces\SpringCloudCodes\Codes\xinguan-parent\xinguan-base-web)
+2020-12-05 02:22:26.878 [INFO ] com.forward.oss.TestOss - No active profile set, falling back to default profiles: default
+2020-12-05 02:22:30.309 [INFO ] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-12-05 02:22:30.574 [INFO ] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-05 02:22:30.976 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-12-05 02:22:31.018 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-12-05 02:22:31.068 [INFO ] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-12-05 02:22:31.220 [INFO ] com.forward.oss.TestOss - Started TestOss in 4.943 seconds (JVM running for 6.194)
+2020-12-05 02:22:32.530 [INFO ] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-05 02:25:30.361 [INFO ] com.forward.oss.TestOss - Starting TestOss on LAPTOP-FKDB9B57 with PID 16848 (started by Acer in D:\IntellijIDEA\WorkSpaces\SpringCloudCodes\Codes\xinguan-parent\xinguan-base-web)
+2020-12-05 02:25:30.366 [INFO ] com.forward.oss.TestOss - No active profile set, falling back to default profiles: default
+2020-12-05 02:25:33.428 [INFO ] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-12-05 02:25:33.722 [INFO ] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-05 02:25:34.135 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-12-05 02:25:34.155 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-12-05 02:25:34.203 [INFO ] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-12-05 02:25:34.343 [INFO ] com.forward.oss.TestOss - Started TestOss in 4.543 seconds (JVM running for 5.789)
+2020-12-05 02:25:35.566 [INFO ] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-05 02:26:00.975 [INFO ] com.forward.oss.TestOss - Starting TestOss on LAPTOP-FKDB9B57 with PID 4604 (started by Acer in D:\IntellijIDEA\WorkSpaces\SpringCloudCodes\Codes\xinguan-parent\xinguan-base-web)
+2020-12-05 02:26:00.977 [INFO ] com.forward.oss.TestOss - No active profile set, falling back to default profiles: default
+2020-12-05 02:26:04.060 [INFO ] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-12-05 02:26:04.339 [INFO ] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-05 02:26:04.790 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-12-05 02:26:04.817 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-12-05 02:26:04.859 [INFO ] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-12-05 02:26:05.000 [INFO ] com.forward.oss.TestOss - Started TestOss in 4.532 seconds (JVM running for 5.641)
+2020-12-05 02:26:06.226 [INFO ] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-05 02:31:23.328 [INFO ] com.forward.oss.TestOss - Starting TestOss on LAPTOP-FKDB9B57 with PID 13048 (started by Acer in D:\IntellijIDEA\WorkSpaces\SpringCloudCodes\Codes\xinguan-parent\xinguan-base-web)
+2020-12-05 02:31:23.331 [INFO ] com.forward.oss.TestOss - No active profile set, falling back to default profiles: default
+2020-12-05 02:31:26.732 [INFO ] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-12-05 02:31:27.026 [INFO ] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-05 02:31:27.452 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-12-05 02:31:27.476 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-12-05 02:31:27.534 [INFO ] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-12-05 02:31:27.685 [INFO ] com.forward.oss.TestOss - Started TestOss in 5.068 seconds (JVM running for 6.263)
+2020-12-05 02:31:27.949 [INFO ] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-05 02:31:41.826 [INFO ] com.forward.oss.TestOss - Starting TestOss on LAPTOP-FKDB9B57 with PID 11708 (started by Acer in D:\IntellijIDEA\WorkSpaces\SpringCloudCodes\Codes\xinguan-parent\xinguan-base-web)
+2020-12-05 02:31:41.828 [INFO ] com.forward.oss.TestOss - No active profile set, falling back to default profiles: default
+2020-12-05 02:31:44.679 [INFO ] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-12-05 02:31:44.949 [INFO ] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-05 02:31:45.334 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-12-05 02:31:45.355 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-12-05 02:31:45.398 [INFO ] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-12-05 02:31:45.539 [INFO ] com.forward.oss.TestOss - Started TestOss in 4.222 seconds (JVM running for 5.396)
+2020-12-05 02:31:46.766 [INFO ] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-05 02:33:04.188 [INFO ] com.forward.oss.TestOss - Starting TestOss on LAPTOP-FKDB9B57 with PID 16004 (started by Acer in D:\IntellijIDEA\WorkSpaces\SpringCloudCodes\Codes\xinguan-parent\xinguan-base-web)
+2020-12-05 02:33:04.191 [INFO ] com.forward.oss.TestOss - No active profile set, falling back to default profiles: default
+2020-12-05 02:33:07.149 [INFO ] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-12-05 02:33:07.478 [INFO ] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-05 02:33:08.056 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-12-05 02:33:08.090 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-12-05 02:33:08.149 [INFO ] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-12-05 02:33:08.389 [INFO ] com.forward.oss.TestOss - Started TestOss in 4.737 seconds (JVM running for 5.993)
+2020-12-05 02:33:09.664 [INFO ] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-05 02:35:57.046 [INFO ] com.forward.oss.TestOss - Starting TestOss on LAPTOP-FKDB9B57 with PID 12312 (started by Acer in D:\IntellijIDEA\WorkSpaces\SpringCloudCodes\Codes\xinguan-parent\xinguan-base-web)
+2020-12-05 02:35:57.049 [INFO ] com.forward.oss.TestOss - No active profile set, falling back to default profiles: default
+2020-12-05 02:36:00.400 [INFO ] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-12-05 02:36:00.693 [INFO ] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-05 02:36:01.163 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-12-05 02:36:01.186 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-12-05 02:36:01.232 [INFO ] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-12-05 02:36:01.388 [INFO ] com.forward.oss.TestOss - Started TestOss in 4.972 seconds (JVM running for 6.239)
+2020-12-05 02:36:02.709 [INFO ] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-05 02:38:31.959 [INFO ] com.forward.oss.TestOss - Starting TestOss on LAPTOP-FKDB9B57 with PID 7072 (started by Acer in D:\IntellijIDEA\WorkSpaces\SpringCloudCodes\Codes\xinguan-parent\xinguan-base-web)
+2020-12-05 02:38:31.961 [INFO ] com.forward.oss.TestOss - No active profile set, falling back to default profiles: default
+2020-12-05 02:38:35.371 [INFO ] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-12-05 02:38:35.683 [INFO ] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-05 02:38:36.068 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-12-05 02:38:36.095 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-12-05 02:38:36.141 [INFO ] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-12-05 02:38:36.316 [INFO ] com.forward.oss.TestOss - Started TestOss in 4.871 seconds (JVM running for 6.131)
+2020-12-05 02:38:37.552 [INFO ] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-05 02:39:05.170 [INFO ] com.forward.oss.TestOss - Starting TestOss on LAPTOP-FKDB9B57 with PID 20424 (started by Acer in D:\IntellijIDEA\WorkSpaces\SpringCloudCodes\Codes\xinguan-parent\xinguan-base-web)
+2020-12-05 02:39:05.172 [INFO ] com.forward.oss.TestOss - No active profile set, falling back to default profiles: default
+2020-12-05 02:39:08.590 [INFO ] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-12-05 02:39:08.900 [INFO ] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-05 02:39:09.319 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-12-05 02:39:09.343 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-12-05 02:39:09.381 [INFO ] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-12-05 02:39:09.575 [INFO ] com.forward.oss.TestOss - Started TestOss in 4.904 seconds (JVM running for 6.094)
+2020-12-05 02:39:11.001 [INFO ] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-05 02:40:10.544 [INFO ] com.forward.oss.TestOss - Starting TestOss on LAPTOP-FKDB9B57 with PID 22012 (started by Acer in D:\IntellijIDEA\WorkSpaces\SpringCloudCodes\Codes\xinguan-parent\xinguan-base-web)
+2020-12-05 02:40:10.547 [INFO ] com.forward.oss.TestOss - No active profile set, falling back to default profiles: default
+2020-12-05 02:40:13.380 [INFO ] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-12-05 02:40:13.661 [INFO ] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-05 02:40:14.076 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-12-05 02:40:14.100 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-12-05 02:40:14.169 [INFO ] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-12-05 02:40:14.326 [INFO ] com.forward.oss.TestOss - Started TestOss in 4.304 seconds (JVM running for 5.447)
+2020-12-05 02:40:15.630 [INFO ] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-05 02:43:41.070 [INFO ] com.forward.oss.TestOss - Starting TestOss on LAPTOP-FKDB9B57 with PID 13628 (started by Acer in D:\IntellijIDEA\WorkSpaces\SpringCloudCodes\Codes\xinguan-parent\xinguan-base-web)
+2020-12-05 02:43:41.072 [INFO ] com.forward.oss.TestOss - No active profile set, falling back to default profiles: default
+2020-12-05 02:43:45.110 [INFO ] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-12-05 02:43:45.417 [INFO ] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-05 02:43:45.829 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-12-05 02:43:45.852 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-12-05 02:43:45.900 [INFO ] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-12-05 02:43:46.078 [INFO ] com.forward.oss.TestOss - Started TestOss in 5.519 seconds (JVM running for 6.704)
+2020-12-05 02:43:47.484 [INFO ] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-05 02:44:31.482 [INFO ] com.forward.oss.TestOss - Starting TestOss on LAPTOP-FKDB9B57 with PID 6232 (started by Acer in D:\IntellijIDEA\WorkSpaces\SpringCloudCodes\Codes\xinguan-parent\xinguan-base-web)
+2020-12-05 02:44:31.484 [INFO ] com.forward.oss.TestOss - No active profile set, falling back to default profiles: default
+2020-12-05 02:44:34.584 [INFO ] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-12-05 02:44:34.872 [INFO ] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-05 02:44:35.242 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-12-05 02:44:35.265 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-12-05 02:44:35.306 [INFO ] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-12-05 02:44:35.457 [INFO ] com.forward.oss.TestOss - Started TestOss in 4.489 seconds (JVM running for 5.606)
+2020-12-05 02:44:36.670 [INFO ] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-05 02:47:38.371 [INFO ] com.forward.oss.TestOss - Starting TestOss on LAPTOP-FKDB9B57 with PID 1944 (started by Acer in D:\IntellijIDEA\WorkSpaces\SpringCloudCodes\Codes\xinguan-parent\xinguan-base-web)
+2020-12-05 02:47:38.374 [INFO ] com.forward.oss.TestOss - No active profile set, falling back to default profiles: default
+2020-12-05 02:47:41.960 [INFO ] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-12-05 02:47:42.314 [INFO ] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-05 02:47:42.737 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-12-05 02:47:42.760 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-12-05 02:47:42.811 [INFO ] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-12-05 02:47:42.959 [INFO ] com.forward.oss.TestOss - Started TestOss in 5.198 seconds (JVM running for 6.453)
+2020-12-05 02:47:44.196 [INFO ] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-05 02:48:59.327 [INFO ] com.forward.oss.TestOss - Starting TestOss on LAPTOP-FKDB9B57 with PID 12012 (started by Acer in D:\IntellijIDEA\WorkSpaces\SpringCloudCodes\Codes\xinguan-parent\xinguan-base-web)
+2020-12-05 02:48:59.332 [INFO ] com.forward.oss.TestOss - No active profile set, falling back to default profiles: default
+2020-12-05 02:49:03.250 [INFO ] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-12-05 02:49:03.551 [INFO ] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-05 02:49:04.149 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-12-05 02:49:04.185 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-12-05 02:49:04.257 [INFO ] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-12-05 02:49:04.462 [INFO ] com.forward.oss.TestOss - Started TestOss in 5.893 seconds (JVM running for 7.51)
+2020-12-05 02:49:05.987 [INFO ] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-05 02:52:36.648 [INFO ] com.forward.XinGuanApplication - Starting XinGuanApplication on LAPTOP-FKDB9B57 with PID 12332 (D:\IntellijIDEA\WorkSpaces\SpringCloudCodes\Codes\xinguan-parent\xinguan-base-web\target\classes started by Acer in D:\IntellijIDEA\WorkSpaces\SpringCloudCodes\Codes\xinguan-parent)
+2020-12-05 02:52:36.655 [INFO ] com.forward.XinGuanApplication - No active profile set, falling back to default profiles: default
+2020-12-05 02:52:37.840 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2020-12-05 02:52:37.852 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2020-12-05 02:52:37.853 [INFO ] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-05 02:52:37.854 [INFO ] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-12-05 02:52:37.947 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-12-05 02:52:37.947 [INFO ] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1205 ms
+2020-12-05 02:52:38.984 [INFO ] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-12-05 02:52:39.045 [INFO ] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-05 02:52:39.210 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2020-12-05 02:52:39.227 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2020-12-05 02:52:39.228 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-12-05 02:52:39.239 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-12-05 02:52:39.263 [INFO ] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-12-05 02:52:39.361 [INFO ] com.forward.XinGuanApplication - Started XinGuanApplication in 3.281 seconds (JVM running for 4.109)
+2020-12-05 02:52:46.495 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-05 02:55:00.031 [INFO ] com.forward.XinGuanApplication - Starting XinGuanApplication on LAPTOP-FKDB9B57 with PID 15592 (D:\IntellijIDEA\WorkSpaces\SpringCloudCodes\Codes\xinguan-parent\xinguan-base-web\target\classes started by Acer in D:\IntellijIDEA\WorkSpaces\SpringCloudCodes\Codes\xinguan-parent)
+2020-12-05 02:55:00.037 [INFO ] com.forward.XinGuanApplication - No active profile set, falling back to default profiles: default
+2020-12-05 02:55:01.549 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2020-12-05 02:55:01.559 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2020-12-05 02:55:01.560 [INFO ] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-05 02:55:01.561 [INFO ] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-12-05 02:55:01.723 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-12-05 02:55:01.723 [INFO ] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1616 ms
+2020-12-05 02:55:03.313 [INFO ] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-12-05 02:55:03.430 [INFO ] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-05 02:55:03.670 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2020-12-05 02:55:03.697 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2020-12-05 02:55:03.698 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-12-05 02:55:03.750 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-12-05 02:55:03.815 [INFO ] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-12-05 02:55:04.003 [INFO ] com.forward.XinGuanApplication - Started XinGuanApplication in 4.762 seconds (JVM running for 7.964)
+2020-12-05 02:55:13.474 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-05 02:57:47.587 [INFO ] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-12-05 02:57:48.281 [INFO ] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-12-05 02:57:48.297 [INFO ] springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: uploadImgFileUsingPOST_1
+2020-12-05 02:57:48.301 [INFO ] springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: findDeptAndCountUsingGET_1
+2020-12-05 02:57:48.308 [INFO ] springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: findUserPageUsingPOST_1
+2020-12-05 02:57:58.755 [INFO ] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]

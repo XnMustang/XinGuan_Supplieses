@@ -1,0 +1,162 @@
+2020-12-05 02:14:41.970 [main] WARN 
+                com.aliyun.oss - [Server]Unable to execute HTTP request: The bucket you are attempting to access must be addressed using the specified endpoint. Please send all future requests to this endpoint.
+[ErrorCode]: AccessDenied
+[RequestId]: 5FCA7C92D6D4393235FD6B1B
+[HostId]: xinguan-parent.oss-cn-beijing.aliyuncs.com
+[ResponseError]:
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>AccessDenied</Code>
+  <Message>The bucket you are attempting to access must be addressed using the specified endpoint. Please send all future requests to this endpoint.</Message>
+  <RequestId>5FCA7C92D6D4393235FD6B1B</RequestId>
+  <HostId>xinguan-parent.oss-cn-beijing.aliyuncs.com</HostId>
+  <Bucket>xinguan-parent</Bucket>
+  <Endpoint>oss-cn-hangzhou.aliyuncs.com</Endpoint>
+</Error>
+
+2020-12-05 02:26:06.199 [main] WARN 
+                com.aliyun.oss - [Server]Unable to execute HTTP request: The bucket you are attempting to access must be addressed using the specified endpoint. Please send all future requests to this endpoint.
+[ErrorCode]: AccessDenied
+[RequestId]: 5FCA7F3E5369E830396EE354
+[HostId]: xinguan-parent.oss-cn-beijing.aliyuncs.com
+[ResponseError]:
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>AccessDenied</Code>
+  <Message>The bucket you are attempting to access must be addressed using the specified endpoint. Please send all future requests to this endpoint.</Message>
+  <RequestId>5FCA7F3E5369E830396EE354</RequestId>
+  <HostId>xinguan-parent.oss-cn-beijing.aliyuncs.com</HostId>
+  <Bucket>xinguan-parent</Bucket>
+  <Endpoint>oss-cn-hangzhou.aliyuncs.com</Endpoint>
+</Error>
+
+2020-12-05 02:33:09.636 [main] WARN 
+                com.aliyun.oss - [Server]Unable to execute HTTP request: The bucket you are attempting to access must be addressed using the specified endpoint. Please send all future requests to this endpoint.
+[ErrorCode]: AccessDenied
+[RequestId]: 5FCA80E5B25822383767D1BA
+[HostId]: xinguan-parent.oss-cn-beijing.aliyuncs.com
+[ResponseError]:
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>AccessDenied</Code>
+  <Message>The bucket you are attempting to access must be addressed using the specified endpoint. Please send all future requests to this endpoint.</Message>
+  <RequestId>5FCA80E5B25822383767D1BA</RequestId>
+  <HostId>xinguan-parent.oss-cn-beijing.aliyuncs.com</HostId>
+  <Bucket>xinguan-parent</Bucket>
+  <Endpoint>oss-cn-hangzhou.aliyuncs.com</Endpoint>
+</Error>
+
+2020-12-05 02:36:02.682 [main] WARN 
+                com.aliyun.oss - [Server]Unable to execute HTTP request: The bucket you are attempting to access must be addressed using the specified endpoint. Please send all future requests to this endpoint.
+[ErrorCode]: AccessDenied
+[RequestId]: 5FCA819318F657363691D560
+[HostId]: xinguan-parent.oss-cn-beijing.aliyuncs.com
+[ResponseError]:
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>AccessDenied</Code>
+  <Message>The bucket you are attempting to access must be addressed using the specified endpoint. Please send all future requests to this endpoint.</Message>
+  <RequestId>5FCA819318F657363691D560</RequestId>
+  <HostId>xinguan-parent.oss-cn-beijing.aliyuncs.com</HostId>
+  <Bucket>xinguan-parent</Bucket>
+  <Endpoint>oss-cn-hangzhou.aliyuncs.com</Endpoint>
+</Error>
+
+2020-12-05 02:38:37.517 [main] WARN 
+                com.aliyun.oss - [Server]Unable to execute HTTP request: The bucket you access does not belong to you.
+[ErrorCode]: AccessDenied
+[RequestId]: 5FCA822DE449963234A83502
+[HostId]: xinguan-parent.oss-cn-hangzhou.aliyuncs.com
+[ResponseError]:
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>AccessDenied</Code>
+  <Message>The bucket you access does not belong to you.</Message>
+  <RequestId>5FCA822DE449963234A83502</RequestId>
+  <HostId>xinguan-parent.oss-cn-hangzhou.aliyuncs.com</HostId>
+</Error>
+
+2020-12-05 02:39:10.967 [main] WARN 
+                com.aliyun.oss - [Server]Unable to execute HTTP request: The bucket you are attempting to access must be addressed using the specified endpoint. Please send all future requests to this endpoint.
+[ErrorCode]: AccessDenied
+[RequestId]: 5FCA824F3218A1313949ED81
+[HostId]: xinguan-parent1.oss-cn-beijing.aliyuncs.com
+[ResponseError]:
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>AccessDenied</Code>
+  <Message>The bucket you are attempting to access must be addressed using the specified endpoint. Please send all future requests to this endpoint.</Message>
+  <RequestId>5FCA824F3218A1313949ED81</RequestId>
+  <HostId>xinguan-parent1.oss-cn-beijing.aliyuncs.com</HostId>
+  <Bucket>xinguan-parent1</Bucket>
+  <Endpoint>oss-cn-hangzhou.aliyuncs.com</Endpoint>
+</Error>
+
+2020-12-05 02:40:15.591 [main] WARN 
+                com.aliyun.oss - [Server]Unable to execute HTTP request: The bucket you are attempting to access must be addressed using the specified endpoint. Please send all future requests to this endpoint.
+[ErrorCode]: AccessDenied
+[RequestId]: 5FCA828FB2582236392349BF
+[HostId]: xinguan-parent1.oss-cn-beijing.aliyuncs.com
+[ResponseError]:
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>AccessDenied</Code>
+  <Message>The bucket you are attempting to access must be addressed using the specified endpoint. Please send all future requests to this endpoint.</Message>
+  <RequestId>5FCA828FB2582236392349BF</RequestId>
+  <HostId>xinguan-parent1.oss-cn-beijing.aliyuncs.com</HostId>
+  <Bucket>xinguan-parent1</Bucket>
+  <Endpoint>oss-cn-hangzhou.aliyuncs.com</Endpoint>
+</Error>
+
+2020-12-05 02:43:47.460 [main] WARN 
+                com.aliyun.oss - [Server]Unable to execute HTTP request: The bucket you are attempting to access must be addressed using the specified endpoint. Please send all future requests to this endpoint.
+[ErrorCode]: AccessDenied
+[RequestId]: 5FCA83633ADDB93435B55963
+[HostId]: xinguan-parent1.oss-cn-beijing.aliyuncs.com
+[ResponseError]:
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>AccessDenied</Code>
+  <Message>The bucket you are attempting to access must be addressed using the specified endpoint. Please send all future requests to this endpoint.</Message>
+  <RequestId>5FCA83633ADDB93435B55963</RequestId>
+  <HostId>xinguan-parent1.oss-cn-beijing.aliyuncs.com</HostId>
+  <Bucket>xinguan-parent1</Bucket>
+  <Endpoint>oss-cn-hangzhou.aliyuncs.com</Endpoint>
+</Error>
+
+2020-12-05 02:44:36.644 [main] WARN 
+                com.aliyun.oss - [Server]Unable to execute HTTP request: The bucket you are attempting to access must be addressed using the specified endpoint. Please send all future requests to this endpoint.
+[ErrorCode]: AccessDenied
+[RequestId]: 5FCA83953ADDB9363469D763
+[HostId]: xinguan-parent1.oss-cn-beijing.aliyuncs.com
+[ResponseError]:
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>AccessDenied</Code>
+  <Message>The bucket you are attempting to access must be addressed using the specified endpoint. Please send all future requests to this endpoint.</Message>
+  <RequestId>5FCA83953ADDB9363469D763</RequestId>
+  <HostId>xinguan-parent1.oss-cn-beijing.aliyuncs.com</HostId>
+  <Bucket>xinguan-parent1</Bucket>
+  <Endpoint>oss-cn-hangzhou.aliyuncs.com</Endpoint>
+</Error>
+
+2020-12-05 02:47:44.166 [main] WARN 
+                com.aliyun.oss - [Server]Unable to execute HTTP request: The bucket you access does not belong to you.
+[ErrorCode]: AccessDenied
+[RequestId]: 5FCA84507F87D834321BA459
+[HostId]: xinguan-parent1.oss-cn-hangzhou.aliyuncs.com
+[ResponseError]:
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>AccessDenied</Code>
+  <Message>The bucket you access does not belong to you.</Message>
+  <RequestId>5FCA84507F87D834321BA459</RequestId>
+  <HostId>xinguan-parent1.oss-cn-hangzhou.aliyuncs.com</HostId>
+</Error>
+
+2020-12-05 02:55:13.433 [http-nio-8082-exec-1] WARN 
+                org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.forward.system.mapper]' package. Please check your configuration.
+2020-12-05 02:57:47.092 [http-nio-8082-exec-7] WARN 
+                org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.forward.system.mapper]' package. Please check your configuration.
+2020-12-05 02:57:58.549 [http-nio-8082-exec-1] WARN 
+                org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.forward.system.mapper]' package. Please check your configuration.

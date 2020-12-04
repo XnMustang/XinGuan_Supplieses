@@ -30,3 +30,11 @@ mybatis:
 
 mybatis-plus:
   type-aliases-package: com.forward.system.entity
+
+# oss
+alioss:
+  endpoint: oss-cn-beijing.aliyuncs.com
+  accessKeyId: LTAI4G26Kvu82oc4fv3BweUB
+  accessKeySecret: bFYacKc1yeS7lHmgdOlqAoUfB0lln9
+  bucketName: springboot-oss-test
+
