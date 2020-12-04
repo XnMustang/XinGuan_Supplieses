@@ -226,3 +226,22 @@ Error starting ApplicationContext. To display the conditions report re-run your 
 2020-12-04 03:21:59.658 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
 2020-12-04 03:21:59.721 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
 2020-12-04 03:22:00.289 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-12-04 14:50:57.084 [INFO ] com.forward.XinGuanApplication - Starting XinGuanApplication on LAPTOP-FKDB9B57 with PID 16484 (D:\IntellijIDEA\WorkSpaces\SpringCloudCodes\Codes\xinguan-parent\xinguan-base-web\target\classes started by Acer in D:\IntellijIDEA\WorkSpaces\SpringCloudCodes\Codes\xinguan-parent)
+2020-12-04 14:50:57.090 [INFO ] com.forward.XinGuanApplication - No active profile set, falling back to default profiles: default
+2020-12-04 14:50:58.623 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2020-12-04 14:50:58.632 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2020-12-04 14:50:58.633 [INFO ] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-04 14:50:58.634 [INFO ] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-12-04 14:50:58.727 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-12-04 14:50:58.727 [INFO ] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1576 ms
+2020-12-04 14:51:00.190 [INFO ] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-12-04 14:51:00.274 [INFO ] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-04 14:51:00.469 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2020-12-04 14:51:00.495 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2020-12-04 14:51:00.496 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-12-04 14:51:00.521 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-12-04 14:51:00.564 [INFO ] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-12-04 14:51:00.724 [INFO ] com.forward.XinGuanApplication - Started XinGuanApplication in 4.697 seconds (JVM running for 6.759)
+2020-12-04 14:51:12.561 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-04 14:51:12.631 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-12-04 14:51:13.112 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.

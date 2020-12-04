@@ -2262,3 +2262,40 @@
 2020-12-04 03:22:45.135 [DEBUG] com.forward.system.mapper.UserMapper.findUserPage - ==>  Preparing: SELECT u.id,u.username,u.nickname,u.email,u.avatar,u.phone_number,u.status, u.create_time,u.modified_time,u.sex,u.salt,u.type,u.password,u.birth, u.department_id,u.deleted,d.name as name from tb_user u INNER JOIN tb_department d on u.department_id = d.id LIMIT ?
 2020-12-04 03:22:45.135 [DEBUG] com.forward.system.mapper.UserMapper.findUserPage - ==> Parameters: 6(Long)
 2020-12-04 03:22:45.136 [DEBUG] com.forward.system.mapper.UserMapper.findUserPage - <==      Total: 6
+2020-12-04 14:51:13.128 [DEBUG] com.forward.system.mapper.DepartmentMapper.findDeptAndCount - ==>  Preparing: select d.id, d.name, IFNULL( (select count(*) from tb_user u where u.department_id = d.id and u.deleted=0 GROUP BY u.department_id) ,0) as deptCount from tb_department d;
+2020-12-04 14:51:13.149 [DEBUG] com.forward.system.mapper.DepartmentMapper.findDeptAndCount - ==> Parameters: 
+2020-12-04 14:51:13.150 [DEBUG] com.forward.system.mapper.UserMapper.findUserPage - ==>  Preparing: SELECT COUNT(1) FROM tb_user u INNER JOIN tb_department d ON u.department_id = d.id
+2020-12-04 14:51:13.150 [DEBUG] com.forward.system.mapper.UserMapper.findUserPage - ==> Parameters: 
+2020-12-04 14:51:13.172 [DEBUG] com.forward.system.mapper.DepartmentMapper.findDeptAndCount - <==      Total: 5
+2020-12-04 14:51:13.177 [DEBUG] com.forward.system.mapper.UserMapper.findUserPage - ==>  Preparing: SELECT u.id,u.username,u.nickname,u.email,u.avatar,u.phone_number,u.status, u.create_time,u.modified_time,u.sex,u.salt,u.type,u.password,u.birth, u.department_id,u.deleted,d.name as name from tb_user u INNER JOIN tb_department d on u.department_id = d.id LIMIT ?
+2020-12-04 14:51:13.179 [DEBUG] com.forward.system.mapper.UserMapper.findUserPage - ==> Parameters: 6(Long)
+2020-12-04 14:51:13.186 [DEBUG] com.forward.system.mapper.UserMapper.findUserPage - <==      Total: 6
+2020-12-04 14:51:17.780 [DEBUG] com.forward.system.mapper.UserMapper.findUserPage - ==>  Preparing: SELECT COUNT(1) FROM tb_user u INNER JOIN tb_department d ON u.department_id = d.id
+2020-12-04 14:51:17.781 [DEBUG] com.forward.system.mapper.UserMapper.findUserPage - ==> Parameters: 
+2020-12-04 14:51:17.784 [DEBUG] com.forward.system.mapper.UserMapper.findUserPage - ==>  Preparing: SELECT u.id,u.username,u.nickname,u.email,u.avatar,u.phone_number,u.status, u.create_time,u.modified_time,u.sex,u.salt,u.type,u.password,u.birth, u.department_id,u.deleted,d.name as name from tb_user u INNER JOIN tb_department d on u.department_id = d.id LIMIT ?
+2020-12-04 14:51:17.785 [DEBUG] com.forward.system.mapper.UserMapper.findUserPage - ==> Parameters: 6(Long)
+2020-12-04 14:51:17.789 [DEBUG] com.forward.system.mapper.UserMapper.findUserPage - <==      Total: 6
+2020-12-04 17:21:48.333 [DEBUG] com.forward.system.mapper.DepartmentMapper.findDeptAndCount - ==>  Preparing: select d.id, d.name, IFNULL( (select count(*) from tb_user u where u.department_id = d.id and u.deleted=0 GROUP BY u.department_id) ,0) as deptCount from tb_department d;
+2020-12-04 17:21:48.351 [DEBUG] com.forward.system.mapper.UserMapper.findUserPage - ==>  Preparing: SELECT COUNT(1) FROM tb_user u INNER JOIN tb_department d ON u.department_id = d.id
+2020-12-04 17:21:48.575 [DEBUG] com.forward.system.mapper.DepartmentMapper.findDeptAndCount - ==> Parameters: 
+2020-12-04 17:21:48.575 [DEBUG] com.forward.system.mapper.UserMapper.findUserPage - ==> Parameters: 
+2020-12-04 17:21:48.600 [DEBUG] com.forward.system.mapper.DepartmentMapper.findDeptAndCount - <==      Total: 5
+2020-12-04 17:21:48.601 [DEBUG] com.forward.system.mapper.UserMapper.findUserPage - ==>  Preparing: SELECT u.id,u.username,u.nickname,u.email,u.avatar,u.phone_number,u.status, u.create_time,u.modified_time,u.sex,u.salt,u.type,u.password,u.birth, u.department_id,u.deleted,d.name as name from tb_user u INNER JOIN tb_department d on u.department_id = d.id LIMIT ?
+2020-12-04 17:21:48.602 [DEBUG] com.forward.system.mapper.UserMapper.findUserPage - ==> Parameters: 6(Long)
+2020-12-04 17:21:48.625 [DEBUG] com.forward.system.mapper.UserMapper.findUserPage - <==      Total: 6
+2020-12-04 17:32:57.992 [DEBUG] com.forward.system.mapper.DepartmentMapper.findDeptAndCount - ==>  Preparing: select d.id, d.name, IFNULL( (select count(*) from tb_user u where u.department_id = d.id and u.deleted=0 GROUP BY u.department_id) ,0) as deptCount from tb_department d;
+2020-12-04 17:32:57.992 [DEBUG] com.forward.system.mapper.DepartmentMapper.findDeptAndCount - ==> Parameters: 
+2020-12-04 17:32:57.995 [DEBUG] com.forward.system.mapper.DepartmentMapper.findDeptAndCount - <==      Total: 5
+2020-12-04 17:32:58.004 [DEBUG] com.forward.system.mapper.UserMapper.findUserPage - ==>  Preparing: SELECT COUNT(1) FROM tb_user u INNER JOIN tb_department d ON u.department_id = d.id
+2020-12-04 17:32:58.004 [DEBUG] com.forward.system.mapper.UserMapper.findUserPage - ==> Parameters: 
+2020-12-04 17:32:58.006 [DEBUG] com.forward.system.mapper.UserMapper.findUserPage - ==>  Preparing: SELECT u.id,u.username,u.nickname,u.email,u.avatar,u.phone_number,u.status, u.create_time,u.modified_time,u.sex,u.salt,u.type,u.password,u.birth, u.department_id,u.deleted,d.name as name from tb_user u INNER JOIN tb_department d on u.department_id = d.id LIMIT ?
+2020-12-04 17:32:58.007 [DEBUG] com.forward.system.mapper.UserMapper.findUserPage - ==> Parameters: 6(Long)
+2020-12-04 17:32:58.009 [DEBUG] com.forward.system.mapper.UserMapper.findUserPage - <==      Total: 6
+2020-12-04 17:34:00.930 [DEBUG] com.forward.system.mapper.UserMapper.findUserPage - ==>  Preparing: SELECT COUNT(1) FROM tb_user u INNER JOIN tb_department d ON u.department_id = d.id
+2020-12-04 17:34:00.930 [DEBUG] com.forward.system.mapper.DepartmentMapper.findDeptAndCount - ==>  Preparing: select d.id, d.name, IFNULL( (select count(*) from tb_user u where u.department_id = d.id and u.deleted=0 GROUP BY u.department_id) ,0) as deptCount from tb_department d;
+2020-12-04 17:34:00.931 [DEBUG] com.forward.system.mapper.UserMapper.findUserPage - ==> Parameters: 
+2020-12-04 17:34:00.931 [DEBUG] com.forward.system.mapper.DepartmentMapper.findDeptAndCount - ==> Parameters: 
+2020-12-04 17:34:00.932 [DEBUG] com.forward.system.mapper.UserMapper.findUserPage - ==>  Preparing: SELECT u.id,u.username,u.nickname,u.email,u.avatar,u.phone_number,u.status, u.create_time,u.modified_time,u.sex,u.salt,u.type,u.password,u.birth, u.department_id,u.deleted,d.name as name from tb_user u INNER JOIN tb_department d on u.department_id = d.id LIMIT ?
+2020-12-04 17:34:00.934 [DEBUG] com.forward.system.mapper.UserMapper.findUserPage - ==> Parameters: 6(Long)
+2020-12-04 17:34:00.937 [DEBUG] com.forward.system.mapper.UserMapper.findUserPage - <==      Total: 6
+2020-12-04 17:34:00.939 [DEBUG] com.forward.system.mapper.DepartmentMapper.findDeptAndCount - <==      Total: 5
