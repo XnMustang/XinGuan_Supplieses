@@ -27,6 +27,7 @@ public class AliOssController {
     @PostMapping("/uploadImgFile")
     public Result uploadImgFile(MultipartFile file){
         String s = ossService.upload(file);
+        ossService.listFile();
         return Result.ok().data("url",s);
     }
 
