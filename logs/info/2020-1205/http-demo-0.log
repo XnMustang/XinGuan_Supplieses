@@ -191,3 +191,60 @@
 2020-12-05 02:57:48.301 [INFO ] springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: findDeptAndCountUsingGET_1
 2020-12-05 02:57:48.308 [INFO ] springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: findUserPageUsingPOST_1
 2020-12-05 02:57:58.755 [INFO ] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-12-05 03:08:19.484 [INFO ] com.forward.XinGuanApplication - Starting XinGuanApplication on LAPTOP-FKDB9B57 with PID 1396 (D:\IntellijIDEA\WorkSpaces\SpringCloudCodes\Codes\xinguan-parent\xinguan-base-web\target\classes started by Acer in D:\IntellijIDEA\WorkSpaces\SpringCloudCodes\Codes\xinguan-parent)
+2020-12-05 03:08:19.489 [INFO ] com.forward.XinGuanApplication - No active profile set, falling back to default profiles: default
+2020-12-05 03:08:21.352 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2020-12-05 03:08:21.368 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2020-12-05 03:08:21.369 [INFO ] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-05 03:08:21.370 [INFO ] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-12-05 03:08:21.505 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-12-05 03:08:21.506 [INFO ] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1929 ms
+2020-12-05 03:08:23.116 [INFO ] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-12-05 03:08:23.217 [INFO ] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-05 03:08:23.432 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2020-12-05 03:08:23.461 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2020-12-05 03:08:23.463 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-12-05 03:08:23.498 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-12-05 03:08:23.538 [INFO ] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-12-05 03:08:23.699 [INFO ] com.forward.XinGuanApplication - Started XinGuanApplication in 5.042 seconds (JVM running for 8.436)
+2020-12-05 03:08:24.256 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-05 16:45:55.585 [INFO ] com.forward.XinGuanApplication - Starting XinGuanApplication on LAPTOP-FKDB9B57 with PID 5628 (D:\IntellijIDEA\WorkSpaces\SpringCloudCodes\Codes\xinguan-parent\xinguan-base-web\target\classes started by Acer in D:\IntellijIDEA\WorkSpaces\SpringCloudCodes\Codes\xinguan-parent)
+2020-12-05 16:45:55.591 [INFO ] com.forward.XinGuanApplication - No active profile set, falling back to default profiles: default
+2020-12-05 16:45:57.582 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2020-12-05 16:45:57.594 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2020-12-05 16:45:57.595 [INFO ] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-05 16:45:57.595 [INFO ] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-12-05 16:45:57.710 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-12-05 16:45:57.710 [INFO ] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2018 ms
+2020-12-05 16:45:59.397 [INFO ] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-12-05 16:45:59.489 [INFO ] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-05 16:45:59.708 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2020-12-05 16:45:59.729 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2020-12-05 16:45:59.731 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-12-05 16:45:59.748 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-12-05 16:45:59.785 [INFO ] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-12-05 16:45:59.935 [INFO ] com.forward.XinGuanApplication - Started XinGuanApplication in 5.561 seconds (JVM running for 7.095)
+2020-12-05 16:47:46.821 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-05 16:47:46.886 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-12-05 16:47:47.450 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-12-05 16:55:14.638 [INFO ] com.forward.XinGuanApplication - Starting XinGuanApplication on LAPTOP-FKDB9B57 with PID 18776 (D:\IntellijIDEA\WorkSpaces\SpringCloudCodes\Codes\xinguan-parent\xinguan-base-web\target\classes started by Acer in D:\IntellijIDEA\WorkSpaces\SpringCloudCodes\Codes\xinguan-parent)
+2020-12-05 16:55:14.641 [INFO ] com.forward.XinGuanApplication - No active profile set, falling back to default profiles: default
+2020-12-05 16:55:16.389 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2020-12-05 16:55:16.400 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2020-12-05 16:55:16.401 [INFO ] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-05 16:55:16.402 [INFO ] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-12-05 16:55:16.517 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-12-05 16:55:16.518 [INFO ] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1806 ms
+2020-12-05 16:55:18.322 [INFO ] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-12-05 16:55:18.449 [INFO ] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-05 16:55:18.720 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2020-12-05 16:55:18.756 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2020-12-05 16:55:18.758 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-12-05 16:55:18.779 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-12-05 16:55:18.838 [INFO ] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-12-05 16:55:19.047 [INFO ] com.forward.XinGuanApplication - Started XinGuanApplication in 5.246 seconds (JVM running for 8.937)
+2020-12-05 16:58:17.153 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-05 16:58:17.288 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-12-05 16:58:17.486 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-12-05 16:59:08.526 [INFO ] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-12-05 17:58:09.207 [INFO ] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]

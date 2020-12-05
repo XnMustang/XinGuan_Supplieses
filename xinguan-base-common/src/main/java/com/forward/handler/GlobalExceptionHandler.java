@@ -56,6 +56,4 @@ public class GlobalExceptionHandler {
                 .message(e.getErrorMsg());
     }
 
-
-
 }
