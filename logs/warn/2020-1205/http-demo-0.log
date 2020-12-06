@@ -160,3 +160,7 @@
                 org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.forward.system.mapper]' package. Please check your configuration.
 2020-12-05 02:57:58.549 [http-nio-8082-exec-1] WARN 
                 org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.forward.system.mapper]' package. Please check your configuration.
+2020-12-05 16:59:08.027 [http-nio-8082-exec-8] WARN 
+                org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.forward.system.mapper]' package. Please check your configuration.
+2020-12-05 17:58:08.810 [http-nio-8082-exec-3] WARN 
+                org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.forward.system.mapper]' package. Please check your configuration.

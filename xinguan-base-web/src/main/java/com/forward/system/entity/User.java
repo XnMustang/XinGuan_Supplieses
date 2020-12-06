@@ -76,7 +76,7 @@ public class User implements Serializable {
     private Long departmentId;
 
     @ApiModelProperty(value = "0:未删除，1:已删除")
-    private Long deleted;
+    private Boolean deleted;
 
     /**
      * 这里是虚拟字段，由UserMapper.xml中查询字段起的别名

@@ -109,12 +109,11 @@ public class AliOssServiceImpl implements AliOssService, InitializingBean {
             //设置类型
             objectMetadata.setContentType(getcontentType(fileName.substring(fileName.lastIndexOf("."))));
             //文件上传至阿里云
-                    ossClient.putObject(bucketName, fileName, inputStream, objectMetadata);
+            ossClient.putObject(bucketName, fileName, inputStream, objectMetadata);
             // 关闭OSSClient。
             ossClient.shutdown();
             //默认十年不过期
-            Date expiration = new Date(System.currentTimeMillis() + 3600L * 1000 * 24 *
-                    365 * 10);
+            Date expiration = new Date(System.currentTimeMillis() + 3600L * 1000 * 24 * 365 * 10);
             //bucket名称 文件名 过期时间
             uploadUrl = ossClient.generatePresignedUrl(bucketName, fileName, expiration).toString();
             //获取url地址
@@ -157,6 +156,9 @@ public class AliOssServiceImpl implements AliOssService, InitializingBean {
         ossClient.shutdown();
     }
 
+    /**
+     * 遍历所有的文件和文件大小
+     */
     @Override
     public void listFile() {
         // 创建OSSClient实例。
@@ -165,16 +167,19 @@ public class AliOssServiceImpl implements AliOssService, InitializingBean {
         ObjectListing objectListing = ossClient.listObjects(bucketName);
         // objectListing.getObjectSummaries获取所有文件的描述信息。
         for (OSSObjectSummary objectSummary : objectListing.getObjectSummaries()) {
-            System.out.println(" - " + objectSummary.getKey() + " " +
-                    "(size = " + objectSummary.getSize() + ")");
+            System.out.println(" - " + objectSummary.getKey() + " " + "(size = " + objectSummary.getSize() + ")");
         }
         // 关闭OSSClient。
         ossClient.shutdown();
     }
 
+    /**
+     * 删除文件
+     * @param fileName
+     */
     @Override
     public void deleteFile(String fileName) {
-        // <yourObjectName>从OSS下载文件时需要指定包含文件后缀在内的完整路径，例如abc / efg / 123. jpg。
+        // <yourObjectName>从OSS下载文件时需要指定包含文件后缀在内的完整路径，例如abc/efg/123.jpg。
         String objectName = fileName;
         // 创建OSSClient实例。
         OSS ossClient = new OSSClientBuilder().build(endpoint, accessKeyId, accessKeySecret);
