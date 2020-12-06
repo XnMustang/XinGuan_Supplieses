@@ -18,6 +18,18 @@ import org.apache.ibatis.annotations.Param;
  */
 public interface UserService extends IService<User> {
 
+    /**
+     * 分页查询用户信息
+     * @param page
+     * @param wrapper
+     * @return
+     */
     IPage<User> findUserPage(Page<User> page,QueryWrapper<User> wrapper);
+
+    /**
+     * 添加用户
+     * @param user 用户对象
+     */
+    void addUser(User user);
 
 }
