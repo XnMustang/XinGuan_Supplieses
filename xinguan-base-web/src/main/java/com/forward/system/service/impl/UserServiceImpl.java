@@ -19,6 +19,7 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
+import java.util.Date;
 import java.util.UUID;
 
 /**
@@ -78,6 +79,8 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements Us
             throw new BusinessException(ResultCode.DEPARTMENT_NOT_EXIST.getCode(),
                     ResultCode.DEPARTMENT_NOT_EXIST.getMessage());
         }
+        user.setCreateTime(new Date());
+        user.setModifiedTime(new Date());
         //盐值
         String salt = UUID.randomUUID().toString().substring(0, 32);
         user.setSalt(salt);

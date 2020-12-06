@@ -1,0 +1,27 @@
+2020-12-07 02:45:42.046 [main] ERROR
+                o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'passwordEncoder', defined in com.forward.XinGuanApplication, could not be registered. A bean with that name has already been defined in class path resource [com/forward/auth/WebSecurityConfig.class] and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+2020-12-07 02:53:56.223 [http-nio-8082-exec-1] ERROR
+                com.forward.handler.GlobalExceptionHandler - JSON parse error: Cannot deserialize value of type `java.util.Date` from String "2020-10-10": expected format "yyyy年MM月dd日"; nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `java.util.Date` from String "2020-10-10": expected format "yyyy年MM月dd日"
+ at [Source: (PushbackInputStream); line: 3, column: 11] (through reference chain: com.forward.system.entity.User["birth"])
+2020-12-07 02:56:09.736 [http-nio-8082-exec-1] ERROR
+                com.forward.handler.GlobalExceptionHandler - JSON parse error: Cannot deserialize value of type `java.util.Date` from String "2020-10-10": expected format "yyyy年MM月dd日"; nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `java.util.Date` from String "2020-10-10": expected format "yyyy年MM月dd日"
+ at [Source: (PushbackInputStream); line: 3, column: 11] (through reference chain: com.forward.system.entity.User["birth"])
+2020-12-07 02:56:38.550 [http-nio-8082-exec-1] ERROR
+                com.forward.handler.GlobalExceptionHandler - JSON parse error: Cannot deserialize value of type `java.util.Date` from String "2020-10-10": expected format "yyyy年MM月dd日"; nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `java.util.Date` from String "2020-10-10": expected format "yyyy年MM月dd日"
+ at [Source: (PushbackInputStream); line: 3, column: 11] (through reference chain: com.forward.system.entity.User["birth"])
+2020-12-07 03:00:05.890 [http-nio-8082-exec-1] ERROR
+                com.forward.handler.GlobalExceptionHandler - JSON parse error: Cannot deserialize value of type `java.util.Date` from String "2020-10-19": expected format "yyyy年MM月dd日"; nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `java.util.Date` from String "2020-10-19": expected format "yyyy年MM月dd日"
+ at [Source: (PushbackInputStream); line: 3, column: 11] (through reference chain: com.forward.system.entity.User["birth"])

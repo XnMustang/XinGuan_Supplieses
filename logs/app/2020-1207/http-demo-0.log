@@ -1,0 +1,9 @@
+2020-12-07 03:01:00.232 [DEBUG] com.forward.system.mapper.UserMapper.selectCount - ==>  Preparing: SELECT COUNT( 1 ) FROM tb_user WHERE (username = ?)
+2020-12-07 03:01:00.253 [DEBUG] com.forward.system.mapper.UserMapper.selectCount - ==> Parameters: wangjun(String)
+2020-12-07 03:01:00.284 [DEBUG] com.forward.system.mapper.UserMapper.selectCount - <==      Total: 1
+2020-12-07 03:01:00.292 [DEBUG] com.forward.system.mapper.DepartmentMapper.selectById - ==>  Preparing: SELECT id,name,phone,address,create_time,modified_time,mgr_id FROM tb_department WHERE id=?
+2020-12-07 03:01:00.293 [DEBUG] com.forward.system.mapper.DepartmentMapper.selectById - ==> Parameters: 1(Long)
+2020-12-07 03:01:00.300 [DEBUG] com.forward.system.mapper.DepartmentMapper.selectById - <==      Total: 1
+2020-12-07 03:01:00.415 [DEBUG] com.forward.system.mapper.UserMapper.insert - ==>  Preparing: INSERT INTO tb_user ( username, nickname, email, avatar, phone_number, status, create_time, modified_time, sex, salt, type, password, birth, department_id, deleted ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? )
+2020-12-07 03:01:00.417 [DEBUG] com.forward.system.mapper.UserMapper.insert - ==> Parameters: wangjun(String), wangjun(String), 1563965@163.com(String), https://springboot-oss-test.oss-cn-beijing.aliyuncs.com/2020/12/06/a18f895cd512423eb8bfaf9189817b11.png(String), 15639651234(String), 1(Integer), 2020-12-07 03:01:00.3(Timestamp), 2020-12-07 03:01:00.3(Timestamp), 0(Integer), c06467a4-60bf-43ed-9a36-b775946d(String), 1(Integer), $2a$10$0i.fzdaUv9O26cnuDaQvceGyvUyxSI58EaEht67HAVh4EWLDX5LjG(String), 2020-10-19 00:00:00.0(Timestamp), 1(Long), false(Boolean)
+2020-12-07 03:01:00.439 [DEBUG] com.forward.system.mapper.UserMapper.insert - <==    Updates: 1
