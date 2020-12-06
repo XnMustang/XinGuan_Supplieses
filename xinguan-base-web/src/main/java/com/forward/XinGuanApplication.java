@@ -22,4 +22,14 @@ public class XinGuanApplication {
         SpringApplication.run(XinGuanApplication.class,args);
     }
 
+    /**
+     * 注入Spring security的Bean
+     * @return
+     */
+    @Bean
+    public PasswordEncoder passwordEncoder(){
+        //new PasswordEncoder接口的实现类
+        return new BCryptPasswordEncoder();
+    }
+
 }
