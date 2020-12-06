@@ -39,8 +39,8 @@ public class GlobalExceptionHandler {
     @ResponseBody
     public Result error(ArithmeticException e){
         log.error(e.getMessage());
-        return Result.error().code(ResultCode.ARITHENTIC_EXCEPTION.getCode())
-                .message(ResultCode.ARITHENTIC_EXCEPTION.getMessage());
+        return Result.error().code(ResultCode.ARITHMETIC_EXCEPTION.getCode())
+                .message(ResultCode.ARITHMETIC_EXCEPTION.getMessage());
     }
 
     /**
