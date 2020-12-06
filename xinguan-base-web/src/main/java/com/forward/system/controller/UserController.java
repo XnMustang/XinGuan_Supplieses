@@ -48,6 +48,18 @@ public class UserController {
         return Result.ok().data("total",total).data("records",records);
     }
 
+    @ApiModelProperty(value = "添加用户",notes = "添加用户信息")
+    @PostMapping("/addUser")
+    public Result addUser(@RequestBody User user){
+        try {
+            userService.addUser(user);
+            return Result.ok();
+        }catch (Exception e){
+            //打印日志信息
+            return Result.error();
+        }
+    }
+
     private QueryWrapper<User> getWrapper(UserVo userVo){
         QueryWrapper<User> queryWrapper = new QueryWrapper<>();
         if(userVo != null){
