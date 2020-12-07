@@ -86,7 +86,6 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements Us
         user.setSalt(salt);
         //创建时间和修改时间使用MyBatisPlus自动填充
 
-
         //使用spring security自带的密码加密策略
         user.setPassword(passwordEncoder.encode(user.getPassword()));
         //设置用户类型 超级管理员0 普通用户1
