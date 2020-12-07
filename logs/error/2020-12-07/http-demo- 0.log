@@ -25,3 +25,6 @@ Consider renaming one of the beans or enabling overriding by setting spring.main
 2020-12-07 03:00:05.890 [http-nio-8082-exec-1] ERROR
                 com.forward.handler.GlobalExceptionHandler - JSON parse error: Cannot deserialize value of type `java.util.Date` from String "2020-10-19": expected format "yyyy年MM月dd日"; nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `java.util.Date` from String "2020-10-19": expected format "yyyy年MM月dd日"
  at [Source: (PushbackInputStream); line: 3, column: 11] (through reference chain: com.forward.system.entity.User["birth"])
+2020-12-07 15:19:16.690 [http-nio-8082-exec-3] ERROR
+                com.forward.handler.GlobalExceptionHandler - JSON parse error: Cannot deserialize value of type `java.util.Date` from String "2020年10月19日": expected format "yyyy-MM-dd"; nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `java.util.Date` from String "2020年10月19日": expected format "yyyy-MM-dd"
+ at [Source: (PushbackInputStream); line: 3, column: 11] (through reference chain: com.forward.system.entity.User["birth"])

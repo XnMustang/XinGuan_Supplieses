@@ -1,10 +1,8 @@
 package com.forward.system.entity;
 
-import com.baomidou.mybatisplus.annotation.TableField;
-import com.baomidou.mybatisplus.annotation.TableName;
-import com.baomidou.mybatisplus.annotation.IdType;
+import com.baomidou.mybatisplus.annotation.*;
+
 import java.util.Date;
-import com.baomidou.mybatisplus.annotation.TableId;
 import java.io.Serializable;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
@@ -50,9 +48,14 @@ public class User implements Serializable {
     @ApiModelProperty(value = "状态 0锁定 1有效")
     private Integer status;
 
+    /**
+     * 创建时间  和 修改时间字段，有多个类都含有，可以做成一个公共类，其他类继承实现即可
+     */
+    @TableField(fill = FieldFill.INSERT)
     @ApiModelProperty(value = "创建时间")
     private Date createTime;
 
+    @TableField(fill = FieldFill.INSERT_UPDATE)
     @ApiModelProperty(value = "修改时间")
     private Date modifiedTime;
 

@@ -167,3 +167,107 @@ Using generated security password: dd3caad0-df48-46a3-9b18-988be46ed3f4
 2020-12-07 02:59:42.962 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
 2020-12-07 03:00:59.640 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
 2020-12-07 03:01:00.221 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-12-07 15:16:26.908 [INFO ] com.forward.XinGuanApplication - Starting XinGuanApplication on LAPTOP-FKDB9B57 with PID 21516 (D:\IntellijIDEA\WorkSpaces\SpringCloudCodes\Codes\xinguan-parent\xinguan-base-web\target\classes started by Acer in D:\IntellijIDEA\WorkSpaces\SpringCloudCodes\Codes\xinguan-parent)
+2020-12-07 15:16:26.912 [INFO ] com.forward.XinGuanApplication - No active profile set, falling back to default profiles: default
+2020-12-07 15:16:28.316 [INFO ] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@35636217' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-07 15:16:28.321 [INFO ] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-07 15:16:28.595 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2020-12-07 15:16:28.605 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2020-12-07 15:16:28.606 [INFO ] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-07 15:16:28.606 [INFO ] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-12-07 15:16:28.715 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-12-07 15:16:28.716 [INFO ] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1749 ms
+2020-12-07 15:16:30.307 [INFO ] org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 1debb9ea-f0e4-49aa-8d17-56655c6a0aac
+
+2020-12-07 15:16:30.389 [INFO ] org.springframework.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@502a4156, org.springframework.security.web.context.SecurityContextPersistenceFilter@d16be4f, org.springframework.security.web.header.HeaderWriterFilter@40247d48, org.springframework.security.web.authentication.logout.LogoutFilter@1642eeae, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6bcb12e6, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4f654cee, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5416f8db, org.springframework.security.web.session.SessionManagementFilter@67536ae0, org.springframework.security.web.access.ExceptionTranslationFilter@315105f]
+2020-12-07 15:16:30.415 [INFO ] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-12-07 15:16:30.550 [INFO ] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-07 15:16:31.021 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2020-12-07 15:16:31.081 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2020-12-07 15:16:31.085 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-12-07 15:16:31.159 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-12-07 15:16:31.307 [INFO ] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-12-07 15:16:31.987 [INFO ] com.forward.XinGuanApplication - Started XinGuanApplication in 6.07 seconds (JVM running for 7.338)
+2020-12-07 15:17:07.511 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-07 15:19:35.360 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-12-07 15:19:35.918 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-12-07 15:32:16.933 [INFO ] com.forward.XinGuanApplication - Starting XinGuanApplication on LAPTOP-FKDB9B57 with PID 10372 (D:\IntellijIDEA\WorkSpaces\SpringCloudCodes\Codes\xinguan-parent\xinguan-base-web\target\classes started by Acer in D:\IntellijIDEA\WorkSpaces\SpringCloudCodes\Codes\xinguan-parent)
+2020-12-07 15:32:16.942 [INFO ] com.forward.XinGuanApplication - No active profile set, falling back to default profiles: default
+2020-12-07 15:32:17.872 [INFO ] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@6e0cff20' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-07 15:32:17.876 [INFO ] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-07 15:32:18.105 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2020-12-07 15:32:18.113 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2020-12-07 15:32:18.113 [INFO ] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-07 15:32:18.114 [INFO ] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-12-07 15:32:18.204 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-12-07 15:32:18.205 [INFO ] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1209 ms
+2020-12-07 15:32:19.422 [INFO ] org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 58bf00a6-9e72-4418-ac50-7d5d37ea8ca1
+
+2020-12-07 15:32:19.487 [INFO ] org.springframework.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@696db620, org.springframework.security.web.context.SecurityContextPersistenceFilter@70025b99, org.springframework.security.web.header.HeaderWriterFilter@17b37e9a, org.springframework.security.web.authentication.logout.LogoutFilter@726934e2, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7134b8a7, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3ba3d4b6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6968c1d6, org.springframework.security.web.session.SessionManagementFilter@558b4942, org.springframework.security.web.access.ExceptionTranslationFilter@6413d7e7]
+2020-12-07 15:32:19.506 [INFO ] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-12-07 15:32:19.587 [INFO ] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-07 15:32:19.773 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2020-12-07 15:32:19.791 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2020-12-07 15:32:19.792 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-12-07 15:32:19.806 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-12-07 15:32:19.837 [INFO ] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-12-07 15:32:19.953 [INFO ] com.forward.XinGuanApplication - Started XinGuanApplication in 3.652 seconds (JVM running for 4.64)
+2020-12-07 15:32:38.793 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-07 15:32:38.920 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-12-07 15:32:39.373 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-12-07 15:32:39.525 [INFO ] com.forward.handler.MyMetaObjectHandler - start insert fill ....
+2020-12-07 15:34:52.088 [INFO ] com.forward.XinGuanApplication - Starting XinGuanApplication on LAPTOP-FKDB9B57 with PID 16192 (D:\IntellijIDEA\WorkSpaces\SpringCloudCodes\Codes\xinguan-parent\xinguan-base-web\target\classes started by Acer in D:\IntellijIDEA\WorkSpaces\SpringCloudCodes\Codes\xinguan-parent)
+2020-12-07 15:34:52.096 [INFO ] com.forward.XinGuanApplication - No active profile set, falling back to default profiles: default
+2020-12-07 15:34:53.072 [INFO ] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@1549bba7' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-07 15:34:53.076 [INFO ] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-07 15:34:53.306 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2020-12-07 15:34:53.315 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2020-12-07 15:34:53.316 [INFO ] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-07 15:34:53.316 [INFO ] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-12-07 15:34:53.401 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-12-07 15:34:53.402 [INFO ] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1236 ms
+2020-12-07 15:34:54.553 [INFO ] org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 3d039b59-bf93-4f26-94d8-d97a5da739d9
+
+2020-12-07 15:34:54.616 [INFO ] org.springframework.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3440e9cd, org.springframework.security.web.context.SecurityContextPersistenceFilter@1f939a0f, org.springframework.security.web.header.HeaderWriterFilter@5a545b0f, org.springframework.security.web.authentication.logout.LogoutFilter@51b77cdf, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@430b2699, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@111d5c97, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@28a9494b, org.springframework.security.web.session.SessionManagementFilter@14924f41, org.springframework.security.web.access.ExceptionTranslationFilter@b73433]
+2020-12-07 15:34:54.634 [INFO ] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-12-07 15:34:54.718 [INFO ] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-07 15:34:54.907 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2020-12-07 15:34:54.926 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2020-12-07 15:34:54.928 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-12-07 15:34:54.940 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-12-07 15:34:54.973 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-07 15:34:54.974 [INFO ] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-12-07 15:34:55.149 [INFO ] com.forward.XinGuanApplication - Started XinGuanApplication in 3.715 seconds (JVM running for 4.51)
+2020-12-07 15:36:16.733 [INFO ] com.forward.XinGuanApplication - Starting XinGuanApplication on LAPTOP-FKDB9B57 with PID 15052 (D:\IntellijIDEA\WorkSpaces\SpringCloudCodes\Codes\xinguan-parent\xinguan-base-web\target\classes started by Acer in D:\IntellijIDEA\WorkSpaces\SpringCloudCodes\Codes\xinguan-parent)
+2020-12-07 15:36:16.738 [INFO ] com.forward.XinGuanApplication - No active profile set, falling back to default profiles: default
+2020-12-07 15:36:17.690 [INFO ] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@6e0cff20' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-07 15:36:17.694 [INFO ] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-07 15:36:17.895 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2020-12-07 15:36:17.904 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2020-12-07 15:36:17.904 [INFO ] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-07 15:36:17.904 [INFO ] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-12-07 15:36:17.994 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-12-07 15:36:17.995 [INFO ] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1196 ms
+2020-12-07 15:36:19.099 [INFO ] org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: f1d2f571-048a-4605-8317-69e6d803e52d
+
+2020-12-07 15:36:19.158 [INFO ] org.springframework.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@696db620, org.springframework.security.web.context.SecurityContextPersistenceFilter@70025b99, org.springframework.security.web.header.HeaderWriterFilter@17b37e9a, org.springframework.security.web.authentication.logout.LogoutFilter@726934e2, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7134b8a7, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3ba3d4b6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6968c1d6, org.springframework.security.web.session.SessionManagementFilter@558b4942, org.springframework.security.web.access.ExceptionTranslationFilter@6413d7e7]
+2020-12-07 15:36:19.175 [INFO ] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-12-07 15:36:19.253 [INFO ] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-07 15:36:19.431 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2020-12-07 15:36:19.448 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2020-12-07 15:36:19.449 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-12-07 15:36:19.459 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-12-07 15:36:19.485 [INFO ] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-12-07 15:36:19.595 [INFO ] com.forward.XinGuanApplication - Started XinGuanApplication in 3.47 seconds (JVM running for 4.256)
+2020-12-07 15:36:57.334 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-07 15:36:57.464 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-12-07 15:36:57.904 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-12-07 15:36:58.050 [INFO ] com.forward.handler.MyMetaObjectHandler - start insert fill ....
