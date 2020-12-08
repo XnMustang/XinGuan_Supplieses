@@ -1,0 +1,8 @@
+2020-12-08 15:41:57.281 [http-nio-8082-exec-5] ERROR
+                com.forward.handler.GlobalExceptionHandler - Required request body is missing: public com.forward.response.Result com.forward.system.controller.ExcelExportUserController.exportUserInfo(java.util.List<com.forward.system.entity.User>)
+2020-12-08 15:44:37.353 [http-nio-8082-exec-5] ERROR
+                com.forward.handler.GlobalExceptionHandler - Required request body is missing: public com.forward.response.Result com.forward.system.controller.ExcelExportUserController.exportUserInfo(com.forward.system.entity.User)
+2020-12-08 15:46:26.788 [http-nio-8082-exec-3] ERROR
+                com.forward.handler.GlobalExceptionHandler - Required request body is missing: public com.forward.response.Result com.forward.system.controller.ExcelExportUserController.exportUserInfo(java.util.List<com.forward.system.entity.User>)
+2020-12-08 17:25:05.895 [http-nio-8082-exec-1] ERROR
+                com.forward.handler.GlobalExceptionHandler - Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported

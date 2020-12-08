@@ -20,6 +20,7 @@ import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
 import java.util.Date;
+import java.util.List;
 import java.util.UUID;
 
 /**
@@ -95,6 +96,12 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements Us
         //设置逻辑删除
         user.setDeleted(false);
         this.baseMapper.insert(user);
+    }
+
+    @Override
+    public List<User> findAllUser() {
+        QueryWrapper<User> wrapper = new QueryWrapper();
+        return this.baseMapper.selectList(wrapper);
     }
 
 }

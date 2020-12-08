@@ -6,10 +6,9 @@ import com.forward.system.entity.User;
 import com.forward.system.utils.EasyPoiUtils;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiModelProperty;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -25,21 +24,24 @@ import java.util.Map;
 @RestController
 @RequestMapping("/excel")
 @Api(value = "导出用户",tags = "导出用户接口")
+@Slf4j
 public class ExcelExportUserController {
 
     @Autowired
     private EasyPoiUtils easyPoiUtils;
 
-    @GetMapping("/exportUserInfo")
+    @PostMapping("/exportUserInfo")
     @ApiModelProperty(value = "导出用户",notes = "导出用户信息")
-    public Result exportUserInfo(List<User> userList){
+    public Result exportUserInfo(@RequestBody List<User> users){
+        log.info(String.valueOf(users));
+
         ExportParams exportParams = new ExportParams("新冠物资系统用户信息", "用户信息");
 
         List<Map<String,Object>> list = new ArrayList<>();
         Map<String,Object> map = new HashMap<>();
         map.put("title",exportParams);
         map.put("entity",User.class);
-        map.put("data",userList);
+        map.put("data",users);
 
         list.add(map);
         try {

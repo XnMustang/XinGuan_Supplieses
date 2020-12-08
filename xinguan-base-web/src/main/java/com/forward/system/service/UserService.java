@@ -8,6 +8,8 @@ import com.forward.system.entity.User;
 import com.baomidou.mybatisplus.extension.service.IService;
 import org.apache.ibatis.annotations.Param;
 
+import java.util.List;
+
 /**
  * <p>
  * 用户表 服务类
@@ -31,5 +33,11 @@ public interface UserService extends IService<User> {
      * @param user 用户对象
      */
     void addUser(User user);
+
+    /**
+     * 查询所有用户信息
+     * @return
+     */
+    List<User> findAllUser();
 
 }

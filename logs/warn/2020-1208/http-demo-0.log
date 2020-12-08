@@ -1,0 +1,2 @@
+2020-12-08 15:27:39.510 [main] WARN 
+                s.d.s.w.readers.parameter.ParameterDataTypeReader - Trying to infer dataType java.util.List<com.forward.system.entity.User>

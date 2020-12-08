@@ -61,6 +61,17 @@ public class UserController {
         }
     }
 
+    @ApiModelProperty(value = "查询所有用户",notes = "查询所有用户信息")
+    @GetMapping("/findAllUser")
+    public Result findAllUser(){
+        try {
+            List<User> users = userService.findAllUser();
+            return Result.ok().data("users",users);
+        }catch (Exception e){
+            return Result.error();
+        }
+    }
+
     private QueryWrapper<User> getWrapper(UserVo userVo){
         QueryWrapper<User> queryWrapper = new QueryWrapper<>();
         if(userVo != null){
