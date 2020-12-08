@@ -5,6 +5,7 @@ import com.forward.XinGuanApplication;
 import com.forward.system.entity.User;
 import com.forward.system.utils.EasyPoiUtils;
 import org.junit.jupiter.api.Test;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
 import java.io.IOException;
@@ -17,6 +18,9 @@ import java.util.*;
  */
 @SpringBootTest(classes = XinGuanApplication.class)
 public class ExcelExportUserTest {
+
+    @Autowired
+    private EasyPoiUtils easyPoiUtils;
 
     @Test
     public void testExportExcel() throws IOException {
@@ -50,7 +54,7 @@ public class ExcelExportUserTest {
 
         list.add(map);
 
-        EasyPoiUtils.exportExcel(list,"E:/Excel/","userInfo.xls");
+        easyPoiUtils.exportExcel(list,"E:/Excel/","userInfo.xls");
 
     }
 

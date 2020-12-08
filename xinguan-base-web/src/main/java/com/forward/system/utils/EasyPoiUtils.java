@@ -8,6 +8,7 @@ import cn.afterturn.easypoi.excel.entity.enmus.ExcelType;
 import com.forward.system.entity.User;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.springframework.context.annotation.Bean;
+import org.springframework.stereotype.Component;
 
 import java.io.File;
 import java.io.FileOutputStream;
@@ -22,6 +23,7 @@ import java.util.Map;
  * @Author : 王俊
  * @date :  2020/12/8
  */
+@Component
 public class EasyPoiUtils {
 
     /**
@@ -31,7 +33,7 @@ public class EasyPoiUtils {
      * @param path      路径
      * @param filename  文件名称
      */
-    public static void exportExcel(Class<?> pojoClass, Collection<?> dateSet, String path, String filename) throws IOException {
+    public void exportExcel(Class<?> pojoClass, Collection<?> dateSet, String path, String filename) throws IOException {
         File saveFile = new File(path);
         //判断保存文件的路径是否存在
         if(!saveFile.exists()){
@@ -51,7 +53,7 @@ public class EasyPoiUtils {
      * @param path  路径
      * @param filename  文件名
      */
-    public static void exportExcel(List<Map<String,Object>> list, String path, String filename) throws IOException {
+    public void exportExcel(List<Map<String,Object>> list, String path, String filename) throws IOException {
         File saveFile = new File(path);
         if (!saveFile.exists()){
             saveFile.mkdirs();
@@ -71,7 +73,7 @@ public class EasyPoiUtils {
      * @param <T>
      * @return
      */
-    public static <T> List<T> importExcel(File file, Class<?> pojoClass, ImportParams params){
+    public <T> List<T> importExcel(File file, Class<?> pojoClass, ImportParams params){
         long start = new Date().getTime();
         List<T> list = ExcelImportUtil.importExcel(file, User.class, params);
         return list;
