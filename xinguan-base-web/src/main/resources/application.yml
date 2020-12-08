@@ -33,8 +33,8 @@ mybatis-plus:
 
 # oss
 alioss:
-  endpoint: oss-cn-beijing.aliyuncs.com
-  accessKeyId: LTAI4G26Kvu82oc4fv3BweUB
-  accessKeySecret: bFYacKc1yeS7lHmgdOlqAoUfB0lln9
-  bucketName: springboot-oss-test
+  endpoint: ******
+  accessKeyId: ******
+  accessKeySecret: ******
+  bucketName: ******
 
