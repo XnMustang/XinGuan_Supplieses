@@ -80,8 +80,6 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements Us
             throw new BusinessException(ResultCode.DEPARTMENT_NOT_EXIST.getCode(),
                     ResultCode.DEPARTMENT_NOT_EXIST.getMessage());
         }
-//        user.setCreateTime(new Date());
-//        user.setModifiedTime(new Date());
         //盐值
         String salt = UUID.randomUUID().toString().substring(0, 32);
         user.setSalt(salt);
@@ -102,6 +100,11 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements Us
     public List<User> findAllUser() {
         QueryWrapper<User> wrapper = new QueryWrapper();
         return this.baseMapper.selectList(wrapper);
+    }
+
+    @Override
+    public int deleteUserById(Integer id) {
+        return this.baseMapper.deleteById(id);
     }
 
 }

@@ -2,11 +2,9 @@ package com.forward.system.service;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
-import com.baomidou.mybatisplus.core.toolkit.Constants;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.forward.system.entity.User;
 import com.baomidou.mybatisplus.extension.service.IService;
-import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
 
@@ -40,4 +38,10 @@ public interface UserService extends IService<User> {
      */
     List<User> findAllUser();
 
+    /**
+     * 根据用户id删除用户信息
+     * @param id 用户id
+     * @return 删除结果
+     */
+    int deleteUserById(Integer id);
 }

@@ -72,6 +72,21 @@ public class UserController {
         }
     }
 
+    @ApiModelProperty(value = "删除选定ID用户",notes = "删除用户")
+    @PostMapping("/deleteUserById")
+    public Result deleteUserById(Integer id){
+        try {
+            int delResult = userService.deleteUserById(id);
+            if (delResult > 0){
+                return Result.ok();
+            }else {
+                return Result.error();
+            }
+        }catch (Exception e){
+            return Result.error();
+        }
+    }
+
     private QueryWrapper<User> getWrapper(UserVo userVo){
         QueryWrapper<User> queryWrapper = new QueryWrapper<>();
         if(userVo != null){
