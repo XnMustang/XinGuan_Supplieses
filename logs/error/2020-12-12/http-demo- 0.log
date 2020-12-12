@@ -88,3 +88,48 @@ org.springframework.http.converter.HttpMessageNotWritableException: No converter
                 com.forward.handler.GlobalExceptionHandler - Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported
 2020-12-12 20:34:05.265 [http-nio-8082-exec-7] ERROR
                 com.forward.handler.GlobalExceptionHandler - Required request body is missing: public com.forward.response.Result com.forward.system.controller.UserController.deleteUserById(java.lang.Integer)
+2020-12-12 21:23:50.946 [http-nio-8082-exec-5] ERROR
+                com.forward.handler.GlobalExceptionHandler - The OSS Access Key Id you provided does not exist in our records.
+[ErrorCode]: InvalidAccessKeyId
+[RequestId]: 5FD4C466DAD5753236247B2C
+[HostId]: springboot-oss-test.oss-cn-beijing.aliyuncs.com
+[ResponseError]:
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>InvalidAccessKeyId</Code>
+  <Message>The OSS Access Key Id you provided does not exist in our records.</Message>
+  <RequestId>5FD4C466DAD5753236247B2C</RequestId>
+  <HostId>springboot-oss-test.oss-cn-beijing.aliyuncs.com</HostId>
+  <OSSAccessKeyId>LTAI4G26Kvu82oc4fv3BweUB</OSSAccessKeyId>
+</Error>
+
+2020-12-12 21:27:22.751 [http-nio-8082-exec-5] ERROR
+                com.forward.handler.GlobalExceptionHandler - The OSS Access Key Id you provided does not exist in our records.
+[ErrorCode]: InvalidAccessKeyId
+[RequestId]: 5FD4C53A224F963438D75C7B
+[HostId]: springboot-oss-test.oss-cn-beijing.aliyuncs.com
+[ResponseError]:
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>InvalidAccessKeyId</Code>
+  <Message>The OSS Access Key Id you provided does not exist in our records.</Message>
+  <RequestId>5FD4C53A224F963438D75C7B</RequestId>
+  <HostId>springboot-oss-test.oss-cn-beijing.aliyuncs.com</HostId>
+  <OSSAccessKeyId>LTAI4G26Kvu82oc4fv3BweUB</OSSAccessKeyId>
+</Error>
+
+2020-12-12 21:27:38.291 [http-nio-8082-exec-10] ERROR
+                com.forward.handler.GlobalExceptionHandler - The OSS Access Key Id you provided does not exist in our records.
+[ErrorCode]: InvalidAccessKeyId
+[RequestId]: 5FD4C549B598543130A419AD
+[HostId]: springboot-oss-test.oss-cn-beijing.aliyuncs.com
+[ResponseError]:
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>InvalidAccessKeyId</Code>
+  <Message>The OSS Access Key Id you provided does not exist in our records.</Message>
+  <RequestId>5FD4C549B598543130A419AD</RequestId>
+  <HostId>springboot-oss-test.oss-cn-beijing.aliyuncs.com</HostId>
+  <OSSAccessKeyId>LTAI4G26Kvu82oc4fv3BweUB</OSSAccessKeyId>
+</Error>
+
